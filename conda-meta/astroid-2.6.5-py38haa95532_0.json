@@ -1,0 +1,1386 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "lazy-object-proxy >=1.4.0",
+    "python >=3.8,<3.9.0a0",
+    "setuptools >=20.0",
+    "wrapt >=1.11,<1.13"
+  ],
+  "extracted_package_dir": "C:\\Users\\user\\anaconda3\\pkgs\\astroid-2.6.5-py38haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/astroid-2.6.5.dist-info/INSTALLER",
+    "Lib/site-packages/astroid-2.6.5.dist-info/LICENSE",
+    "Lib/site-packages/astroid-2.6.5.dist-info/METADATA",
+    "Lib/site-packages/astroid-2.6.5.dist-info/RECORD",
+    "Lib/site-packages/astroid-2.6.5.dist-info/REQUESTED",
+    "Lib/site-packages/astroid-2.6.5.dist-info/WHEEL",
+    "Lib/site-packages/astroid-2.6.5.dist-info/direct_url.json",
+    "Lib/site-packages/astroid-2.6.5.dist-info/top_level.txt",
+    "Lib/site-packages/astroid/__init__.py",
+    "Lib/site-packages/astroid/__pkginfo__.py",
+    "Lib/site-packages/astroid/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/__pkginfo__.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/_ast.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/arguments.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/as_string.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/astroid_manager.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/bases.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/builder.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/const.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/context.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/decorators.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/exceptions.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/helpers.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/inference.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/inference_tip.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/manager.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/mixins.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/modutils.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/node_classes.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/nodes.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/objects.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/protocols.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/raw_building.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/rebuilder.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/scoped_nodes.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/test_utils.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/transforms.cpython-38.pyc",
+    "Lib/site-packages/astroid/__pycache__/util.cpython-38.pyc",
+    "Lib/site-packages/astroid/_ast.py",
+    "Lib/site-packages/astroid/arguments.py",
+    "Lib/site-packages/astroid/as_string.py",
+    "Lib/site-packages/astroid/astroid_manager.py",
+    "Lib/site-packages/astroid/bases.py",
+    "Lib/site-packages/astroid/brain/__init__.py",
+    "Lib/site-packages/astroid/brain/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_argparse.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_attrs.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_boto3.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_builtin_inference.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_collections.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_crypt.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_curses.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_dataclasses.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_dateutil.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_fstrings.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_functools.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_gi.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_hashlib.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_http.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_hypothesis.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_io.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_mechanize.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_multiprocessing.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_namedtuple_enum.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_nose.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_fromnumeric.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_function_base.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_multiarray.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_numeric.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_numerictypes.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_umath.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_ndarray.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_random_mtrand.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_utils.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_pkg_resources.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_pytest.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_qt.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_random.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_re.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_responses.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_scipy_signal.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_six.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_sqlalchemy.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_ssl.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_subprocess.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_threading.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_type.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_typing.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/brain_uuid.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/__pycache__/helpers.cpython-38.pyc",
+    "Lib/site-packages/astroid/brain/brain_argparse.py",
+    "Lib/site-packages/astroid/brain/brain_attrs.py",
+    "Lib/site-packages/astroid/brain/brain_boto3.py",
+    "Lib/site-packages/astroid/brain/brain_builtin_inference.py",
+    "Lib/site-packages/astroid/brain/brain_collections.py",
+    "Lib/site-packages/astroid/brain/brain_crypt.py",
+    "Lib/site-packages/astroid/brain/brain_curses.py",
+    "Lib/site-packages/astroid/brain/brain_dataclasses.py",
+    "Lib/site-packages/astroid/brain/brain_dateutil.py",
+    "Lib/site-packages/astroid/brain/brain_fstrings.py",
+    "Lib/site-packages/astroid/brain/brain_functools.py",
+    "Lib/site-packages/astroid/brain/brain_gi.py",
+    "Lib/site-packages/astroid/brain/brain_hashlib.py",
+    "Lib/site-packages/astroid/brain/brain_http.py",
+    "Lib/site-packages/astroid/brain/brain_hypothesis.py",
+    "Lib/site-packages/astroid/brain/brain_io.py",
+    "Lib/site-packages/astroid/brain/brain_mechanize.py",
+    "Lib/site-packages/astroid/brain/brain_multiprocessing.py",
+    "Lib/site-packages/astroid/brain/brain_namedtuple_enum.py",
+    "Lib/site-packages/astroid/brain/brain_nose.py",
+    "Lib/site-packages/astroid/brain/brain_numpy_core_fromnumeric.py",
+    "Lib/site-packages/astroid/brain/brain_numpy_core_function_base.py",
+    "Lib/site-packages/astroid/brain/brain_numpy_core_multiarray.py",
+    "Lib/site-packages/astroid/brain/brain_numpy_core_numeric.py",
+    "Lib/site-packages/astroid/brain/brain_numpy_core_numerictypes.py",
+    "Lib/site-packages/astroid/brain/brain_numpy_core_umath.py",
+    "Lib/site-packages/astroid/brain/brain_numpy_ndarray.py",
+    "Lib/site-packages/astroid/brain/brain_numpy_random_mtrand.py",
+    "Lib/site-packages/astroid/brain/brain_numpy_utils.py",
+    "Lib/site-packages/astroid/brain/brain_pkg_resources.py",
+    "Lib/site-packages/astroid/brain/brain_pytest.py",
+    "Lib/site-packages/astroid/brain/brain_qt.py",
+    "Lib/site-packages/astroid/brain/brain_random.py",
+    "Lib/site-packages/astroid/brain/brain_re.py",
+    "Lib/site-packages/astroid/brain/brain_responses.py",
+    "Lib/site-packages/astroid/brain/brain_scipy_signal.py",
+    "Lib/site-packages/astroid/brain/brain_six.py",
+    "Lib/site-packages/astroid/brain/brain_sqlalchemy.py",
+    "Lib/site-packages/astroid/brain/brain_ssl.py",
+    "Lib/site-packages/astroid/brain/brain_subprocess.py",
+    "Lib/site-packages/astroid/brain/brain_threading.py",
+    "Lib/site-packages/astroid/brain/brain_type.py",
+    "Lib/site-packages/astroid/brain/brain_typing.py",
+    "Lib/site-packages/astroid/brain/brain_uuid.py",
+    "Lib/site-packages/astroid/brain/helpers.py",
+    "Lib/site-packages/astroid/builder.py",
+    "Lib/site-packages/astroid/const.py",
+    "Lib/site-packages/astroid/context.py",
+    "Lib/site-packages/astroid/decorators.py",
+    "Lib/site-packages/astroid/exceptions.py",
+    "Lib/site-packages/astroid/helpers.py",
+    "Lib/site-packages/astroid/inference.py",
+    "Lib/site-packages/astroid/inference_tip.py",
+    "Lib/site-packages/astroid/interpreter/__init__.py",
+    "Lib/site-packages/astroid/interpreter/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/astroid/interpreter/__pycache__/dunder_lookup.cpython-38.pyc",
+    "Lib/site-packages/astroid/interpreter/__pycache__/objectmodel.cpython-38.pyc",
+    "Lib/site-packages/astroid/interpreter/_import/__init__.py",
+    "Lib/site-packages/astroid/interpreter/_import/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/astroid/interpreter/_import/__pycache__/spec.cpython-38.pyc",
+    "Lib/site-packages/astroid/interpreter/_import/__pycache__/util.cpython-38.pyc",
+    "Lib/site-packages/astroid/interpreter/_import/spec.py",
+    "Lib/site-packages/astroid/interpreter/_import/util.py",
+    "Lib/site-packages/astroid/interpreter/dunder_lookup.py",
+    "Lib/site-packages/astroid/interpreter/objectmodel.py",
+    "Lib/site-packages/astroid/manager.py",
+    "Lib/site-packages/astroid/mixins.py",
+    "Lib/site-packages/astroid/modutils.py",
+    "Lib/site-packages/astroid/node_classes.py",
+    "Lib/site-packages/astroid/nodes.py",
+    "Lib/site-packages/astroid/objects.py",
+    "Lib/site-packages/astroid/protocols.py",
+    "Lib/site-packages/astroid/raw_building.py",
+    "Lib/site-packages/astroid/rebuilder.py",
+    "Lib/site-packages/astroid/scoped_nodes.py",
+    "Lib/site-packages/astroid/test_utils.py",
+    "Lib/site-packages/astroid/transforms.py",
+    "Lib/site-packages/astroid/util.py",
+    ".nonadmin"
+  ],
+  "fn": "astroid-2.6.5-py38haa95532_0.conda",
+  "legacy_bz2_md5": "aeba4a01390bb51d12492ece6cecb23e",
+  "legacy_bz2_size": 324962,
+  "license": "LGPL-2.1-only",
+  "license_family": "LGPL",
+  "link": {
+    "source": "C:\\Users\\user\\anaconda3\\pkgs\\astroid-2.6.5-py38haa95532_0",
+    "type": 1
+  },
+  "md5": "ac5586e3f15ae6d477ac9c2089c07d16",
+  "name": "astroid",
+  "package_tarball_full_path": "C:\\Users\\user\\anaconda3\\pkgs\\astroid-2.6.5-py38haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/astroid-2.6.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/astroid-2.6.5.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fea16bda9e734dea0d9c8d9f5b909878ef4171626354329609fffcf3db42cb24",
+        "sha256_in_prefix": "fea16bda9e734dea0d9c8d9f5b909878ef4171626354329609fffcf3db42cb24",
+        "size_in_bytes": 26516
+      },
+      {
+        "_path": "Lib/site-packages/astroid-2.6.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "31d8a591e563f259dc76a9e12adfdc58660110c88b44443e18dea3675773900c",
+        "sha256_in_prefix": "31d8a591e563f259dc76a9e12adfdc58660110c88b44443e18dea3675773900c",
+        "size_in_bytes": 1807
+      },
+      {
+        "_path": "Lib/site-packages/astroid-2.6.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "64017f5ea6422038c758ce25a932fb3143f62b5d2b643ff6ba1601321780bb05",
+        "sha256_in_prefix": "64017f5ea6422038c758ce25a932fb3143f62b5d2b643ff6ba1601321780bb05",
+        "size_in_bytes": 12038
+      },
+      {
+        "_path": "Lib/site-packages/astroid-2.6.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/astroid-2.6.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/astroid-2.6.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a63039abe7331f18ff53233907cbb35a0864bc0f262abb03657d50c92c274fd6",
+        "sha256_in_prefix": "a63039abe7331f18ff53233907cbb35a0864bc0f262abb03657d50c92c274fd6",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "Lib/site-packages/astroid-2.6.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1ec756e0edb1ed95d18fa93e6a08b745a4326c62e86c8dd5484fa3b78bd05173",
+        "sha256_in_prefix": "1ec756e0edb1ed95d18fa93e6a08b745a4326c62e86c8dd5484fa3b78bd05173",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1e9490db491ac3298286238c63fe571f698f1fd74be41d07724e978909317094",
+        "sha256_in_prefix": "1e9490db491ac3298286238c63fe571f698f1fd74be41d07724e978909317094",
+        "size_in_bytes": 3146
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pkginfo__.py",
+        "path_type": "hardlink",
+        "sha256": "e8ca7046fe3e4ef7d9aa63a8a3ffbaca17316c700ee3ef80551794ae9b23aeaa",
+        "sha256_in_prefix": "e8ca7046fe3e4ef7d9aa63a8a3ffbaca17316c700ee3ef80551794ae9b23aeaa",
+        "size_in_bytes": 1530
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4adec0a32b64f7ceb41f08f34f6a1f69345a8067663d2da091dbbae63916e547",
+        "sha256_in_prefix": "4adec0a32b64f7ceb41f08f34f6a1f69345a8067663d2da091dbbae63916e547",
+        "size_in_bytes": 2279
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/__pkginfo__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec0abf75dfae0ac4d039726365b6797a84ef072d9328c51d3074dceec5c777fd",
+        "sha256_in_prefix": "ec0abf75dfae0ac4d039726365b6797a84ef072d9328c51d3074dceec5c777fd",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/_ast.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "92ec5b999907de597b12b4a3cb2cae557114661a344b752b6dcaf04970bebd5c",
+        "sha256_in_prefix": "92ec5b999907de597b12b4a3cb2cae557114661a344b752b6dcaf04970bebd5c",
+        "size_in_bytes": 3087
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/arguments.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ddd8d448d09f36da79f7efbb9acabee45eb5b2e9cb669a2332aeecae23fb1cd7",
+        "sha256_in_prefix": "ddd8d448d09f36da79f7efbb9acabee45eb5b2e9cb669a2332aeecae23fb1cd7",
+        "size_in_bytes": 7781
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/as_string.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1738d9201d2f28bfc00f0ec5ee967a05d02943a06fce506ce2a7cda0a035a0c7",
+        "sha256_in_prefix": "1738d9201d2f28bfc00f0ec5ee967a05d02943a06fce506ce2a7cda0a035a0c7",
+        "size_in_bytes": 28541
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/astroid_manager.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "95d257dad75e754a789747fad8f915e05d9d02ebcc8cabb84207d8edae534f15",
+        "sha256_in_prefix": "95d257dad75e754a789747fad8f915e05d9d02ebcc8cabb84207d8edae534f15",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/bases.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9bd1552469b1fdf256c944b9f24710079a0575cb83c691468116796cafe1eef1",
+        "sha256_in_prefix": "9bd1552469b1fdf256c944b9f24710079a0575cb83c691468116796cafe1eef1",
+        "size_in_bytes": 17063
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/builder.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b83ebb2e1114447dc983ae91c48d8a008a41289463673f004c297e2fd67bd2fd",
+        "sha256_in_prefix": "b83ebb2e1114447dc983ae91c48d8a008a41289463673f004c297e2fd67bd2fd",
+        "size_in_bytes": 12904
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/const.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "be80890871bd06aba6d64212f3ab9ac019236d6b411b7f15fa5c90f11ed50993",
+        "sha256_in_prefix": "be80890871bd06aba6d64212f3ab9ac019236d6b411b7f15fa5c90f11ed50993",
+        "size_in_bytes": 606
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/context.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f76d584c0c17f07005db5f56977c68b38973277e6dc8e9fed3f67de6816528e",
+        "sha256_in_prefix": "5f76d584c0c17f07005db5f56977c68b38973277e6dc8e9fed3f67de6816528e",
+        "size_in_bytes": 5232
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/decorators.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "562aff29323bb545c443ba8fcd9adfb062aed9bf94d6b3696d0f791187c7efb9",
+        "sha256_in_prefix": "562aff29323bb545c443ba8fcd9adfb062aed9bf94d6b3696d0f791187c7efb9",
+        "size_in_bytes": 3551
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5394fc4d68d3e620878d756e3e9d4a5493bcf0f19de057f61b3ac59797cdc867",
+        "sha256_in_prefix": "5394fc4d68d3e620878d756e3e9d4a5493bcf0f19de057f61b3ac59797cdc867",
+        "size_in_bytes": 9494
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/helpers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a11ba1b5a95122236682ef0648ced09c0723839cfd321c0adad4ca08d2cbf67",
+        "sha256_in_prefix": "8a11ba1b5a95122236682ef0648ced09c0723839cfd321c0adad4ca08d2cbf67",
+        "size_in_bytes": 7843
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/inference.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "219b6a03bdbc07a9cad9bb545821cefe6ac677b45695126882aaccbbc6573135",
+        "sha256_in_prefix": "219b6a03bdbc07a9cad9bb545821cefe6ac677b45695126882aaccbbc6573135",
+        "size_in_bytes": 21968
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/inference_tip.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1bf0ed51e772303ff05ccb322dd3334d44727438c00eda80018c215f2a89ff03",
+        "sha256_in_prefix": "1bf0ed51e772303ff05ccb322dd3334d44727438c00eda80018c215f2a89ff03",
+        "size_in_bytes": 2095
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/manager.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8cda5637c4688fe01426506d2993343e4ebfdc5ada92ac9c7b276ec114045b42",
+        "sha256_in_prefix": "8cda5637c4688fe01426506d2993343e4ebfdc5ada92ac9c7b276ec114045b42",
+        "size_in_bytes": 10125
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/mixins.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "61b6b734cee4589a6fb5a890405d2d5bdb1abcecad2b3b446ec0b0e33f4dc508",
+        "sha256_in_prefix": "61b6b734cee4589a6fb5a890405d2d5bdb1abcecad2b3b446ec0b0e33f4dc508",
+        "size_in_bytes": 5826
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/modutils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "32f9aa1723452138c85f70c4effee1a996ec1047bbe3d27dfb6f8bccd385803b",
+        "sha256_in_prefix": "32f9aa1723452138c85f70c4effee1a996ec1047bbe3d27dfb6f8bccd385803b",
+        "size_in_bytes": 15576
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/node_classes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6086e0cc9f1a66da784ef146689fc811d11a07bf01313cfd1c09abf5c9386212",
+        "sha256_in_prefix": "6086e0cc9f1a66da784ef146689fc811d11a07bf01313cfd1c09abf5c9386212",
+        "size_in_bytes": 126902
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/nodes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb1176b6aafefef830949202904c4210367a422bff2b73f4069ed393cf008862",
+        "sha256_in_prefix": "cb1176b6aafefef830949202904c4210367a422bff2b73f4069ed393cf008862",
+        "size_in_bytes": 2686
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/objects.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bea9b6ef25b256f5ccd80ccf5061a4fdbb143c4194b9c9dec22493092fd1b96b",
+        "sha256_in_prefix": "bea9b6ef25b256f5ccd80ccf5061a4fdbb143c4194b9c9dec22493092fd1b96b",
+        "size_in_bytes": 9676
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/protocols.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2e1d44ab1238ccdb53d7ce9c8aacc35d76a45e3944d02af5d32e5552eb74b5b",
+        "sha256_in_prefix": "e2e1d44ab1238ccdb53d7ce9c8aacc35d76a45e3944d02af5d32e5552eb74b5b",
+        "size_in_bytes": 17933
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/raw_building.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "be0bf2a22fa58844942067ab3e0da969e01f139ac39dc28cbb33475c91283fe8",
+        "sha256_in_prefix": "be0bf2a22fa58844942067ab3e0da969e01f139ac39dc28cbb33475c91283fe8",
+        "size_in_bytes": 12299
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/rebuilder.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b73a13706a221940866ec4ab9a3ae5184637347fde796d4813f49e87c691fd58",
+        "sha256_in_prefix": "b73a13706a221940866ec4ab9a3ae5184637347fde796d4813f49e87c691fd58",
+        "size_in_bytes": 58122
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/scoped_nodes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "65267f03f71903fbd17e9694f905f8c5d66aab66e1bb9ccb986e9b58d6ef8c49",
+        "sha256_in_prefix": "65267f03f71903fbd17e9694f905f8c5d66aab66e1bb9ccb986e9b58d6ef8c49",
+        "size_in_bytes": 71567
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/test_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1abd7e5178c4b451c7b642f9bb8df25104e8323d9c3298c4e4b51be85440b4c9",
+        "sha256_in_prefix": "1abd7e5178c4b451c7b642f9bb8df25104e8323d9c3298c4e4b51be85440b4c9",
+        "size_in_bytes": 2943
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/transforms.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba94b766d6111971d5799c92b571d94f5c1e0ac33cedb669d6c7091f87b1355c",
+        "sha256_in_prefix": "ba94b766d6111971d5799c92b571d94f5c1e0ac33cedb669d6c7091f87b1355c",
+        "size_in_bytes": 3482
+      },
+      {
+        "_path": "Lib/site-packages/astroid/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff77638ab78a490d9468f8aaab3b297d6414f5e339ff94a5e2eb92cf914fc3af",
+        "sha256_in_prefix": "ff77638ab78a490d9468f8aaab3b297d6414f5e339ff94a5e2eb92cf914fc3af",
+        "size_in_bytes": 5076
+      },
+      {
+        "_path": "Lib/site-packages/astroid/_ast.py",
+        "path_type": "hardlink",
+        "sha256": "521ff08f50f2588187e72520d4db8524613151c7e84fd951a3e59d1470cb6fbb",
+        "sha256_in_prefix": "521ff08f50f2588187e72520d4db8524613151c7e84fd951a3e59d1470cb6fbb",
+        "size_in_bytes": 3423
+      },
+      {
+        "_path": "Lib/site-packages/astroid/arguments.py",
+        "path_type": "hardlink",
+        "sha256": "23da92cc921ab48e31ea4e343a4d7a873326643cf4c502ac4cf7641f1176b7e5",
+        "sha256_in_prefix": "23da92cc921ab48e31ea4e343a4d7a873326643cf4c502ac4cf7641f1176b7e5",
+        "size_in_bytes": 12966
+      },
+      {
+        "_path": "Lib/site-packages/astroid/as_string.py",
+        "path_type": "hardlink",
+        "sha256": "454ce2bd33f282fb1787357a8d037072842bbcf4dfdf9b1e61ec7da8db18537c",
+        "sha256_in_prefix": "454ce2bd33f282fb1787357a8d037072842bbcf4dfdf9b1e61ec7da8db18537c",
+        "size_in_bytes": 24964
+      },
+      {
+        "_path": "Lib/site-packages/astroid/astroid_manager.py",
+        "path_type": "hardlink",
+        "sha256": "95c9c6272a30f111ef95e3f358b00b17d61e31dbd0b0ea291f522667853eef22",
+        "sha256_in_prefix": "95c9c6272a30f111ef95e3f358b00b17d61e31dbd0b0ea291f522667853eef22",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "Lib/site-packages/astroid/bases.py",
+        "path_type": "hardlink",
+        "sha256": "5b5d1d8c9c0216dedffb2670f38e7a34e0617090e27c418c9d4f3f39312df3b6",
+        "sha256_in_prefix": "5b5d1d8c9c0216dedffb2670f38e7a34e0617090e27c418c9d4f3f39312df3b6",
+        "size_in_bytes": 21177
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6597194a62345d9211703c843b87febf5e01b43c9bbb389b28db5eeccf0fc97c",
+        "sha256_in_prefix": "6597194a62345d9211703c843b87febf5e01b43c9bbb389b28db5eeccf0fc97c",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_argparse.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b444ed51d2acaab948d456c62d59e72061d76862de46c46bfa4a4ffd5baea564",
+        "sha256_in_prefix": "b444ed51d2acaab948d456c62d59e72061d76862de46c46bfa4a4ffd5baea564",
+        "size_in_bytes": 1114
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_attrs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d50d6737ab29bc4dbf8eadaf21b27435dc5a5f8c4f871251ea0c5959dadc656",
+        "sha256_in_prefix": "0d50d6737ab29bc4dbf8eadaf21b27435dc5a5f8c4f871251ea0c5959dadc656",
+        "size_in_bytes": 1720
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_boto3.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a55ddc2235a8cab9749d12b79a1ad4cc13100664ad35fe1e9ce69a1ea479b553",
+        "sha256_in_prefix": "a55ddc2235a8cab9749d12b79a1ad4cc13100664ad35fe1e9ce69a1ea479b553",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_builtin_inference.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca77869890ceb0e4507c91ae22633d2a2ae256a0516ff5163074ba46b4373492",
+        "sha256_in_prefix": "ca77869890ceb0e4507c91ae22633d2a2ae256a0516ff5163074ba46b4373492",
+        "size_in_bytes": 22103
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_collections.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7731d76d5a327d1d910a0f4da7f1871b7c2cc4c14f5b523dc1b0b2267255edf",
+        "sha256_in_prefix": "a7731d76d5a327d1d910a0f4da7f1871b7c2cc4c14f5b523dc1b0b2267255edf",
+        "size_in_bytes": 3733
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_crypt.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e537b8a00c3a5bc648ecadf6a9cb8d940e1b51807cb1da30a3c9256ec68c252",
+        "sha256_in_prefix": "6e537b8a00c3a5bc648ecadf6a9cb8d940e1b51807cb1da30a3c9256ec68c252",
+        "size_in_bytes": 902
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_curses.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f4188bc12f13020db1f7cad522ed95b6cee422ab6509baeaf94bd87608aeb6e",
+        "sha256_in_prefix": "6f4188bc12f13020db1f7cad522ed95b6cee422ab6509baeaf94bd87608aeb6e",
+        "size_in_bytes": 3430
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_dataclasses.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "30d497886ecc01f04fe34f37bc6680fee7a7b60819f80b36298808f92b1b3e01",
+        "sha256_in_prefix": "30d497886ecc01f04fe34f37bc6680fee7a7b60819f80b36298808f92b1b3e01",
+        "size_in_bytes": 1579
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_dateutil.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "41e795e3d2821aca8f5f9d6ff6b9ba6de8088774f72528410c4bd28af395ff71",
+        "sha256_in_prefix": "41e795e3d2821aca8f5f9d6ff6b9ba6de8088774f72528410c4bd28af395ff71",
+        "size_in_bytes": 700
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_fstrings.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c523404ae3cccc427b3b38bf001805565646f09f6f1ac246d6ade48a857d813b",
+        "sha256_in_prefix": "c523404ae3cccc427b3b38bf001805565646f09f6f1ac246d6ade48a857d813b",
+        "size_in_bytes": 1538
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_functools.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a83c7236617e9936b21ac6bf74a3c5badb17f946389083f815e06b8a180cdd8",
+        "sha256_in_prefix": "6a83c7236617e9936b21ac6bf74a3c5badb17f946389083f815e06b8a180cdd8",
+        "size_in_bytes": 4859
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_gi.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "eca40b58b5536fe83ad844b48cfa370549928d670fe5530580dfe188d9b03de4",
+        "sha256_in_prefix": "eca40b58b5536fe83ad844b48cfa370549928d670fe5530580dfe188d9b03de4",
+        "size_in_bytes": 4485
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_hashlib.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "486954e9d09deae587864811a364ad6eb1e8d7d1c802d3adf23ddd8bf6420ceb",
+        "sha256_in_prefix": "486954e9d09deae587864811a364ad6eb1e8d7d1c802d3adf23ddd8bf6420ceb",
+        "size_in_bytes": 1878
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_http.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a9211172e9f1e64d02865254725983ac354e490dce96baadb6d01601518d7f74",
+        "sha256_in_prefix": "a9211172e9f1e64d02865254725983ac354e490dce96baadb6d01601518d7f74",
+        "size_in_bytes": 10519
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_hypothesis.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd8a15bc0fbaa97bb7806a43d633c33778d4c15849e57be81ce437e29baa5ae0",
+        "sha256_in_prefix": "fd8a15bc0fbaa97bb7806a43d633c33778d4c15849e57be81ce437e29baa5ae0",
+        "size_in_bytes": 1561
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_io.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "abcd0a12b36a78307c5afcd23bacfa7f6bb878a13a41bb65fd8599b4e290a54c",
+        "sha256_in_prefix": "abcd0a12b36a78307c5afcd23bacfa7f6bb878a13a41bb65fd8599b4e290a54c",
+        "size_in_bytes": 1325
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_mechanize.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d606980580b8f199858466d574011dbb98c84a9170ed5f2274f312bfc51530be",
+        "sha256_in_prefix": "d606980580b8f199858466d574011dbb98c84a9170ed5f2274f312bfc51530be",
+        "size_in_bytes": 2471
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_multiprocessing.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "21850a3cc57180596cf91e079dd31a0ef2852e326fa9f66da4d90566d51849bb",
+        "sha256_in_prefix": "21850a3cc57180596cf91e079dd31a0ef2852e326fa9f66da4d90566d51849bb",
+        "size_in_bytes": 2675
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_namedtuple_enum.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea377756ef7f94804e2c3d228c5fc136dc12eaf366436f8aa648af55f103fb8a",
+        "sha256_in_prefix": "ea377756ef7f94804e2c3d228c5fc136dc12eaf366436f8aa648af55f103fb8a",
+        "size_in_bytes": 14126
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_nose.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e312589beaab6c25f61467ddcae4c7da8bc92512d4ccf981c13bc1d10fd47a2b",
+        "sha256_in_prefix": "e312589beaab6c25f61467ddcae4c7da8bc92512d4ccf981c13bc1d10fd47a2b",
+        "size_in_bytes": 2189
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_fromnumeric.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "57e3551080b7437b21082a6cc4e9d7a1abba52f801b6a04cf173907942cd763e",
+        "sha256_in_prefix": "57e3551080b7437b21082a6cc4e9d7a1abba52f801b6a04cf173907942cd763e",
+        "size_in_bytes": 693
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_function_base.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d5c22e781d8f25be70d9b507a19072240f7bb90238fd9cfa1a6d649139f77be",
+        "sha256_in_prefix": "9d5c22e781d8f25be70d9b507a19072240f7bb90238fd9cfa1a6d649139f77be",
+        "size_in_bytes": 1108
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_multiarray.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d141bd7811c37a397012b7eaa80aa2d634e8a9d9f7d707b70b0a55f7e5e58ae3",
+        "sha256_in_prefix": "d141bd7811c37a397012b7eaa80aa2d634e8a9d9f7d707b70b0a55f7e5e58ae3",
+        "size_in_bytes": 3401
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_numeric.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "db10161a9a7b389ddc82b3310dd40a7ccbbe6fd1dbc9df9e82625f7cb94d7deb",
+        "sha256_in_prefix": "db10161a9a7b389ddc82b3310dd40a7ccbbe6fd1dbc9df9e82625f7cb94d7deb",
+        "size_in_bytes": 1428
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_numerictypes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0ee72b92380a3baf93c3a63596bd8d841e28c1d015fab54a3cab6547591d207",
+        "sha256_in_prefix": "c0ee72b92380a3baf93c3a63596bd8d841e28c1d015fab54a3cab6547591d207",
+        "size_in_bytes": 7984
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_core_umath.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "34d5be4140087c2c8b84d6da4289914f0169a14e5e8df370028c60da7ed42007",
+        "sha256_in_prefix": "34d5be4140087c2c8b84d6da4289914f0169a14e5e8df370028c60da7ed42007",
+        "size_in_bytes": 4566
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_ndarray.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb81dfb96db10ad7b8f351d733cf1ef5db934f1f3c7a82044f538040a646ed6e",
+        "sha256_in_prefix": "cb81dfb96db10ad7b8f351d733cf1ef5db934f1f3c7a82044f538040a646ed6e",
+        "size_in_bytes": 8646
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_random_mtrand.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f7873401d7c2dbeb10b448955bb76391cc0739ac7e71d5185a8f1c4b52c4e28",
+        "sha256_in_prefix": "6f7873401d7c2dbeb10b448955bb76391cc0739ac7e71d5185a8f1c4b52c4e28",
+        "size_in_bytes": 3347
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_numpy_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "457a2bf197b315ea4167b9fc77442736b17734ba79e7c6bf2ff07167256d1841",
+        "sha256_in_prefix": "457a2bf197b315ea4167b9fc77442736b17734ba79e7c6bf2ff07167256d1841",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_pkg_resources.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd728d10e6d46a0f735daf8dbcb3d3d2882793c433f73542b55903b5eb86b428",
+        "sha256_in_prefix": "bd728d10e6d46a0f735daf8dbcb3d3d2882793c433f73542b55903b5eb86b428",
+        "size_in_bytes": 2152
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_pytest.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9299f6c5046dc90f8e2cd9d30401ac634200fed241ef8354bb43832a27cf9bec",
+        "sha256_in_prefix": "9299f6c5046dc90f8e2cd9d30401ac634200fed241ef8354bb43832a27cf9bec",
+        "size_in_bytes": 2127
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_qt.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "08f4800b197259bf13132cccce69dd801608fa5c8907dca0363ca3599ec023dd",
+        "sha256_in_prefix": "08f4800b197259bf13132cccce69dd801608fa5c8907dca0363ca3599ec023dd",
+        "size_in_bytes": 2122
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_random.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9543990b132116f042ffe6542b8061d4b7f8f307f583c77a422da187ab6b2a6a",
+        "sha256_in_prefix": "9543990b132116f042ffe6542b8061d4b7f8f307f583c77a422da187ab6b2a6a",
+        "size_in_bytes": 2404
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_re.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2f1e29c9c57690a8064d1a8f369e0de656d125a12a1ca1eaaab16c25403870c",
+        "sha256_in_prefix": "b2f1e29c9c57690a8064d1a8f369e0de656d125a12a1ca1eaaab16c25403870c",
+        "size_in_bytes": 2358
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_responses.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7e7b02bf0d93ad38ca9a80f63721bf04ee92509b52c3b4375c9bbd6fad9b297",
+        "sha256_in_prefix": "f7e7b02bf0d93ad38ca9a80f63721bf04ee92509b52c3b4375c9bbd6fad9b297",
+        "size_in_bytes": 1835
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_scipy_signal.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e459b705982e49fa72aa21271f47c6ac4d6349f1d3e331be79127c8e4a891089",
+        "sha256_in_prefix": "e459b705982e49fa72aa21271f47c6ac4d6349f1d3e331be79127c8e4a891089",
+        "size_in_bytes": 2248
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_six.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc409c6b19a4caf03ff1d40d32dd3ad09a80cab7ae5ff31eed5399ddaf0c1217",
+        "sha256_in_prefix": "dc409c6b19a4caf03ff1d40d32dd3ad09a80cab7ae5ff31eed5399ddaf0c1217",
+        "size_in_bytes": 6547
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_sqlalchemy.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f3891be5fe87b475c73a5c4a2b0644613fa4c6fe8b2c8cfa274fb39860b2bf77",
+        "sha256_in_prefix": "f3891be5fe87b475c73a5c4a2b0644613fa4c6fe8b2c8cfa274fb39860b2bf77",
+        "size_in_bytes": 963
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_ssl.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c4b25703fe701b811fc8be8581783f008bae826d74bea53b947eeeea04afc5e",
+        "sha256_in_prefix": "0c4b25703fe701b811fc8be8581783f008bae826d74bea53b947eeeea04afc5e",
+        "size_in_bytes": 3539
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_subprocess.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b70b37a99f003410b3e9f0ca84f20d04937ab23a28034f084f0bed5ace92c530",
+        "sha256_in_prefix": "b70b37a99f003410b3e9f0ca84f20d04937ab23a28034f084f0bed5ace92c530",
+        "size_in_bytes": 3628
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_threading.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b65d233b879ba27178d781a35b4749193a8e50f8513ea653a48e398796163f31",
+        "sha256_in_prefix": "b65d233b879ba27178d781a35b4749193a8e50f8513ea653a48e398796163f31",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_type.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f28917e359d4c2054db03c26b997a4c65705af3c34b8ff12e29c789feeb1bd45",
+        "sha256_in_prefix": "f28917e359d4c2054db03c26b997a4c65705af3c34b8ff12e29c789feeb1bd45",
+        "size_in_bytes": 2357
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_typing.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2fc42155c1e95e08896015ec0e0e03e89f28d899aebf865ba2a4db641448dcf1",
+        "sha256_in_prefix": "2fc42155c1e95e08896015ec0e0e03e89f28d899aebf865ba2a4db641448dcf1",
+        "size_in_bytes": 8510
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/brain_uuid.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b10a020a48ed607846e217972324c30d123d444ebacacd91c1b3f5b9a590b170",
+        "sha256_in_prefix": "b10a020a48ed607846e217972324c30d123d444ebacacd91c1b3f5b9a590b170",
+        "size_in_bytes": 668
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/__pycache__/helpers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f0abfeccec7d4e5b7931812c4f01a7793709f5d871c7b31a87f3e631b0d3711",
+        "sha256_in_prefix": "4f0abfeccec7d4e5b7931812c4f01a7793709f5d871c7b31a87f3e631b0d3711",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_argparse.py",
+        "path_type": "hardlink",
+        "sha256": "945af160c42038de3259a36fdb3703f9c3df62c45446dbb58231315f01b4253a",
+        "sha256_in_prefix": "945af160c42038de3259a36fdb3703f9c3df62c45446dbb58231315f01b4253a",
+        "size_in_bytes": 1114
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_attrs.py",
+        "path_type": "hardlink",
+        "sha256": "db23e5293b44beccfa250edf28cb7d9e2796e22f788ac55d8a1cc4a6dd8724fc",
+        "sha256_in_prefix": "db23e5293b44beccfa250edf28cb7d9e2796e22f788ac55d8a1cc4a6dd8724fc",
+        "size_in_bytes": 2532
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_boto3.py",
+        "path_type": "hardlink",
+        "sha256": "8711e69de9b1cca078b7a93df1a821119783ef56b5d380f395a4c997707c85b3",
+        "sha256_in_prefix": "8711e69de9b1cca078b7a93df1a821119783ef56b5d380f395a4c997707c85b3",
+        "size_in_bytes": 915
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_builtin_inference.py",
+        "path_type": "hardlink",
+        "sha256": "8c65de3e1f08829b4b9ecf4d4cca2d59e67ada2d57a35f43e367bd609156cc66",
+        "sha256_in_prefix": "8c65de3e1f08829b4b9ecf4d4cca2d59e67ada2d57a35f43e367bd609156cc66",
+        "size_in_bytes": 31381
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_collections.py",
+        "path_type": "hardlink",
+        "sha256": "2f5247893b2d815f448e5cf6618cb5968179623a54814a8f051b8b88e9ab4d68",
+        "sha256_in_prefix": "2f5247893b2d815f448e5cf6618cb5968179623a54814a8f051b8b88e9ab4d68",
+        "size_in_bytes": 4763
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_crypt.py",
+        "path_type": "hardlink",
+        "sha256": "7b36d3ae5caca1ca1349d80eb88a40f608c8ceb16ab2991f393715be4260a1f8",
+        "sha256_in_prefix": "7b36d3ae5caca1ca1349d80eb88a40f608c8ceb16ab2991f393715be4260a1f8",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_curses.py",
+        "path_type": "hardlink",
+        "sha256": "a909f332ee9ddfe81da4819ba664d609b286843abd32788d9edfea7085393f15",
+        "sha256_in_prefix": "a909f332ee9ddfe81da4819ba664d609b286843abd32788d9edfea7085393f15",
+        "size_in_bytes": 3400
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_dataclasses.py",
+        "path_type": "hardlink",
+        "sha256": "c70aa624d96774c9ff8f984e3055675caef200c4029c35986c120e86f66d7801",
+        "sha256_in_prefix": "c70aa624d96774c9ff8f984e3055675caef200c4029c35986c120e86f66d7801",
+        "size_in_bytes": 2235
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_dateutil.py",
+        "path_type": "hardlink",
+        "sha256": "943239d27b9a588f4b2dd0e5916cfe7cdddf15de26246261a790c143333f3ce1",
+        "sha256_in_prefix": "943239d27b9a588f4b2dd0e5916cfe7cdddf15de26246261a790c143333f3ce1",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_fstrings.py",
+        "path_type": "hardlink",
+        "sha256": "2d374b37a34c8a25f256fad21598ae4070c9c35125aef4fa690d5acba081c06d",
+        "sha256_in_prefix": "2d374b37a34c8a25f256fad21598ae4070c9c35125aef4fa690d5acba081c06d",
+        "size_in_bytes": 2439
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_functools.py",
+        "path_type": "hardlink",
+        "sha256": "1bf74ffc538de9650632fb279ccf13aef8c35f5ba4126eb6755b196062f8419c",
+        "sha256_in_prefix": "1bf74ffc538de9650632fb279ccf13aef8c35f5ba4126eb6755b196062f8419c",
+        "size_in_bytes": 5697
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_gi.py",
+        "path_type": "hardlink",
+        "sha256": "be4fb6cce554b2d754b217a810b665b19b5b665ca0733091073836b598b1ed31",
+        "sha256_in_prefix": "be4fb6cce554b2d754b217a810b665b19b5b665ca0733091073836b598b1ed31",
+        "size_in_bytes": 8073
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_hashlib.py",
+        "path_type": "hardlink",
+        "sha256": "aee950f72ddab4b2590c25d597f625687d8a227d93e99872bb67635f0d5044cd",
+        "sha256_in_prefix": "aee950f72ddab4b2590c25d597f625687d8a227d93e99872bb67635f0d5044cd",
+        "size_in_bytes": 2459
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_http.py",
+        "path_type": "hardlink",
+        "sha256": "bd335001487b35ad3449724a4fecabb5191c414c7e14a1b1dfa4c16d0cc8e64b",
+        "sha256_in_prefix": "bd335001487b35ad3449724a4fecabb5191c414c7e14a1b1dfa4c16d0cc8e64b",
+        "size_in_bytes": 10798
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_hypothesis.py",
+        "path_type": "hardlink",
+        "sha256": "6c48a49c571ff39f48292cc613ee59d00d8c7153c1bb61e9255c748d823745ac",
+        "sha256_in_prefix": "6c48a49c571ff39f48292cc613ee59d00d8c7153c1bb61e9255c748d823745ac",
+        "size_in_bytes": 1642
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_io.py",
+        "path_type": "hardlink",
+        "sha256": "60a3ec891f788714f3ee2213576341c111a2d039a3f77d3ecd1dd4fa64590258",
+        "sha256_in_prefix": "60a3ec891f788714f3ee2213576341c111a2d039a3f77d3ecd1dd4fa64590258",
+        "size_in_bytes": 1714
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_mechanize.py",
+        "path_type": "hardlink",
+        "sha256": "ff51b1ebaefaa41cb5911ab787bcd2e8049d1964b99d58dc255485e5bf14b98d",
+        "sha256_in_prefix": "ff51b1ebaefaa41cb5911ab787bcd2e8049d1964b99d58dc255485e5bf14b98d",
+        "size_in_bytes": 2959
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_multiprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "08193f83efdf9e95ab2c2e29a22857603fbaff6479a1684fe452c7a028f3beec",
+        "sha256_in_prefix": "08193f83efdf9e95ab2c2e29a22857603fbaff6479a1684fe452c7a028f3beec",
+        "size_in_bytes": 3510
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_namedtuple_enum.py",
+        "path_type": "hardlink",
+        "sha256": "28ce03e3bda0dbd78dfe184f63f536b91b6254f9f95766e065390a2862969b09",
+        "sha256_in_prefix": "28ce03e3bda0dbd78dfe184f63f536b91b6254f9f95766e065390a2862969b09",
+        "size_in_bytes": 20704
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_nose.py",
+        "path_type": "hardlink",
+        "sha256": "4eafe6a1afb9829556790928e97fc6e83b866ad747baf0dfa7b27252b0c20bc6",
+        "sha256_in_prefix": "4eafe6a1afb9829556790928e97fc6e83b866ad747baf0dfa7b27252b0c20bc6",
+        "size_in_bytes": 2581
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_numpy_core_fromnumeric.py",
+        "path_type": "hardlink",
+        "sha256": "053d62784ccb562d79a3639f2de3d31aa89aeb5e0d97e452a81240b5ad5a6cf2",
+        "sha256_in_prefix": "053d62784ccb562d79a3639f2de3d31aa89aeb5e0d97e452a81240b5ad5a6cf2",
+        "size_in_bytes": 924
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_numpy_core_function_base.py",
+        "path_type": "hardlink",
+        "sha256": "ae92b9f5705d2e66bfdfddbff765183be0663e589f71a53db18f1efea5e2d969",
+        "sha256_in_prefix": "ae92b9f5705d2e66bfdfddbff765183be0663e589f71a53db18f1efea5e2d969",
+        "size_in_bytes": 1484
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_numpy_core_multiarray.py",
+        "path_type": "hardlink",
+        "sha256": "187bc08614cf790cc5c7045d82e99c742512eb1a93075e491bacde53287b2fc2",
+        "sha256_in_prefix": "187bc08614cf790cc5c7045d82e99c742512eb1a93075e491bacde53287b2fc2",
+        "size_in_bytes": 4396
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_numpy_core_numeric.py",
+        "path_type": "hardlink",
+        "sha256": "e2c21eecc145d2a7908097067be147b6182609b1cd71212f3790cd9362d3049b",
+        "sha256_in_prefix": "e2c21eecc145d2a7908097067be147b6182609b1cd71212f3790cd9362d3049b",
+        "size_in_bytes": 1779
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_numpy_core_numerictypes.py",
+        "path_type": "hardlink",
+        "sha256": "32e3eaa567693bb3ddd28b4fcae174ce645a5ae28fb2d0956a9606e143707447",
+        "sha256_in_prefix": "32e3eaa567693bb3ddd28b4fcae174ce645a5ae28fb2d0956a9606e143707447",
+        "size_in_bytes": 8500
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_numpy_core_umath.py",
+        "path_type": "hardlink",
+        "sha256": "db23873289420aecaf251609af531d719430f76ca577f56c22a3d4c6055486c5",
+        "sha256_in_prefix": "db23873289420aecaf251609af531d719430f76ca577f56c22a3d4c6055486c5",
+        "size_in_bytes": 5084
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_numpy_ndarray.py",
+        "path_type": "hardlink",
+        "sha256": "8f2bad2b8dc33ebbefa7cd9e199484e87596b1743080d2d2457d88c418770279",
+        "sha256_in_prefix": "8f2bad2b8dc33ebbefa7cd9e199484e87596b1743080d2d2457d88c418770279",
+        "size_in_bytes": 8908
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_numpy_random_mtrand.py",
+        "path_type": "hardlink",
+        "sha256": "8c3e17148a6089d0ea939af12ab5591c50889aab2dbcf5492329967cc6b5419a",
+        "sha256_in_prefix": "8c3e17148a6089d0ea939af12ab5591c50889aab2dbcf5492329967cc6b5419a",
+        "size_in_bytes": 3627
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_numpy_utils.py",
+        "path_type": "hardlink",
+        "sha256": "2ba6e96e0da707e0512cf260b3ada007396145e94b819634666d8d61b63f7383",
+        "sha256_in_prefix": "2ba6e96e0da707e0512cf260b3ada007396145e94b819634666d8d61b63f7383",
+        "size_in_bytes": 2086
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_pkg_resources.py",
+        "path_type": "hardlink",
+        "sha256": "b652732e3a10078f745a10cc02b7cd907a68a37d5607345dd2e245ee9c342671",
+        "sha256_in_prefix": "b652732e3a10078f745a10cc02b7cd907a68a37d5607345dd2e245ee9c342671",
+        "size_in_bytes": 2386
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_pytest.py",
+        "path_type": "hardlink",
+        "sha256": "13d8055ed175b31c7c65c66257938a5ce2922128c63905854db245f6b62494c1",
+        "sha256_in_prefix": "13d8055ed175b31c7c65c66257938a5ce2922128c63905854db245f6b62494c1",
+        "size_in_bytes": 2631
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_qt.py",
+        "path_type": "hardlink",
+        "sha256": "e7f6f17956036f2a86b9de4886a2fc9f4dd14617440ee9c02414c1d985e2a706",
+        "sha256_in_prefix": "e7f6f17956036f2a86b9de4886a2fc9f4dd14617440ee9c02414c1d985e2a706",
+        "size_in_bytes": 2812
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_random.py",
+        "path_type": "hardlink",
+        "sha256": "723ddaabda1845c1eb772431eb147110a27bf14dcfefae00e355427b449c6ed3",
+        "sha256_in_prefix": "723ddaabda1845c1eb772431eb147110a27bf14dcfefae00e355427b449c6ed3",
+        "size_in_bytes": 2609
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_re.py",
+        "path_type": "hardlink",
+        "sha256": "ea1cae024eadd5eed2a2b160b3a4f8cd09d570d183e107a2bc154c18a5c51940",
+        "sha256_in_prefix": "ea1cae024eadd5eed2a2b160b3a4f8cd09d570d183e107a2bc154c18a5c51940",
+        "size_in_bytes": 2531
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_responses.py",
+        "path_type": "hardlink",
+        "sha256": "5adb930adeeff30d98a5a2a9dc478a1554dbf7cd0b4ae7f1a043c6a57be306e9",
+        "sha256_in_prefix": "5adb930adeeff30d98a5a2a9dc478a1554dbf7cd0b4ae7f1a043c6a57be306e9",
+        "size_in_bytes": 1640
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_scipy_signal.py",
+        "path_type": "hardlink",
+        "sha256": "d72cb4870c237654c274d7f4ff2a903d6a222400f3b232a87631ebf987d524f1",
+        "sha256_in_prefix": "d72cb4870c237654c274d7f4ff2a903d6a222400f3b232a87631ebf987d524f1",
+        "size_in_bytes": 2618
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_six.py",
+        "path_type": "hardlink",
+        "sha256": "8ae132fcfdbc3e3b339476f7c6dcf5bd74786a18177a32695d2ecc67327b8efe",
+        "sha256_in_prefix": "8ae132fcfdbc3e3b339476f7c6dcf5bd74786a18177a32695d2ecc67327b8efe",
+        "size_in_bytes": 8090
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_sqlalchemy.py",
+        "path_type": "hardlink",
+        "sha256": "c4742d1630f10578b81615336588d8948432283e90c0f3d707625a128972799a",
+        "sha256_in_prefix": "c4742d1630f10578b81615336588d8948432283e90c0f3d707625a128972799a",
+        "size_in_bytes": 780
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_ssl.py",
+        "path_type": "hardlink",
+        "sha256": "81c36cd1ddd8451595bbf522fac729bedac8d99d5d363faa0fd6265933fb973f",
+        "sha256_in_prefix": "81c36cd1ddd8451595bbf522fac729bedac8d99d5d363faa0fd6265933fb973f",
+        "size_in_bytes": 3915
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_subprocess.py",
+        "path_type": "hardlink",
+        "sha256": "80817fad061924007991e767627c86c3280ea0e6988c7ed71b2ea0aee78c5d3d",
+        "sha256_in_prefix": "80817fad061924007991e767627c86c3280ea0e6988c7ed71b2ea0aee78c5d3d",
+        "size_in_bytes": 4459
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_threading.py",
+        "path_type": "hardlink",
+        "sha256": "ac946bb3d168714b6737f4a0e024ecb19f15af06a6c4c749667ec7b3587a2d1c",
+        "sha256_in_prefix": "ac946bb3d168714b6737f4a0e024ecb19f15af06a6c4c749667ec7b3587a2d1c",
+        "size_in_bytes": 1119
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_type.py",
+        "path_type": "hardlink",
+        "sha256": "651902e773d6917aafb7604b9b8ebcfe4c821ccd2c664b4ca1c33c20c3c34787",
+        "sha256_in_prefix": "651902e773d6917aafb7604b9b8ebcfe4c821ccd2c664b4ca1c33c20c3c34787",
+        "size_in_bytes": 2187
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_typing.py",
+        "path_type": "hardlink",
+        "sha256": "4629a43a1a27739d1080f55c74adffa34ec0519c266b3a0942b24415f7016a86",
+        "sha256_in_prefix": "4629a43a1a27739d1080f55c74adffa34ec0519c266b3a0942b24415f7016a86",
+        "size_in_bytes": 12595
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/brain_uuid.py",
+        "path_type": "hardlink",
+        "sha256": "13521edbb7ca52fcb01ab765e22143ebbcb386e30c41ebf03f8a03b2876329d5",
+        "sha256_in_prefix": "13521edbb7ca52fcb01ab765e22143ebbcb386e30c41ebf03f8a03b2876329d5",
+        "size_in_bytes": 839
+      },
+      {
+        "_path": "Lib/site-packages/astroid/brain/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "30b83a6393851aea76f2f611d926f2aded25028a302c9ca4ae0279ab563e6813",
+        "sha256_in_prefix": "30b83a6393851aea76f2f611d926f2aded25028a302c9ca4ae0279ab563e6813",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "Lib/site-packages/astroid/builder.py",
+        "path_type": "hardlink",
+        "sha256": "d4e29472780fc6d8cff9f30a5bf9906d5fae808e38a8278a956af0a15e85fd01",
+        "sha256_in_prefix": "d4e29472780fc6d8cff9f30a5bf9906d5fae808e38a8278a956af0a15e85fd01",
+        "size_in_bytes": 17137
+      },
+      {
+        "_path": "Lib/site-packages/astroid/const.py",
+        "path_type": "hardlink",
+        "sha256": "08863547387dbff3b4b55f161242a253b77a4764b56076e6704abaa7533812e6",
+        "sha256_in_prefix": "08863547387dbff3b4b55f161242a253b77a4764b56076e6704abaa7533812e6",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "Lib/site-packages/astroid/context.py",
+        "path_type": "hardlink",
+        "sha256": "4a547ff8fcd9c45f11695b4e6d118871cae8bbfa3b92f6694f880f76208c2884",
+        "sha256_in_prefix": "4a547ff8fcd9c45f11695b4e6d118871cae8bbfa3b92f6694f880f76208c2884",
+        "size_in_bytes": 6102
+      },
+      {
+        "_path": "Lib/site-packages/astroid/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "2fe8e31c4ceb52326f436ecdeb085cca0c8aa408d51342c86ecbc934fd4f990d",
+        "sha256_in_prefix": "2fe8e31c4ceb52326f436ecdeb085cca0c8aa408d51342c86ecbc934fd4f990d",
+        "size_in_bytes": 4535
+      },
+      {
+        "_path": "Lib/site-packages/astroid/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "266a39b25540ace1d4e27ebb65e35ca59d8cfcb52f455197ca9e2ca149193e27",
+        "sha256_in_prefix": "266a39b25540ace1d4e27ebb65e35ca59d8cfcb52f455197ca9e2ca149193e27",
+        "size_in_bytes": 7918
+      },
+      {
+        "_path": "Lib/site-packages/astroid/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "7e886c8effd7c3b5bf7cd6a4cf66b65ba6cb8e89d27cb9a94dab3088c796d4a2",
+        "sha256_in_prefix": "7e886c8effd7c3b5bf7cd6a4cf66b65ba6cb8e89d27cb9a94dab3088c796d4a2",
+        "size_in_bytes": 10695
+      },
+      {
+        "_path": "Lib/site-packages/astroid/inference.py",
+        "path_type": "hardlink",
+        "sha256": "73a7bf0bc5b9e3aa8981d5fbb6d3bbc86834f327a1e547c44ccb3e6444c6ff5b",
+        "sha256_in_prefix": "73a7bf0bc5b9e3aa8981d5fbb6d3bbc86834f327a1e547c44ccb3e6444c6ff5b",
+        "size_in_bytes": 34156
+      },
+      {
+        "_path": "Lib/site-packages/astroid/inference_tip.py",
+        "path_type": "hardlink",
+        "sha256": "9ae65e737fbf40c368e8a7928a5ac3bd2fe327cc88a9c5dc5040a2b9298a2261",
+        "sha256_in_prefix": "9ae65e737fbf40c368e8a7928a5ac3bd2fe327cc88a9c5dc5040a2b9298a2261",
+        "size_in_bytes": 2463
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f03afb7120cbc09ab974e04eacd44b2cc1058bdc70eb1105a2ac5cc139c9c8e6",
+        "sha256_in_prefix": "f03afb7120cbc09ab974e04eacd44b2cc1058bdc70eb1105a2ac5cc139c9c8e6",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/__pycache__/dunder_lookup.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a7454550569d5f74228778f7d89d295f93fbff39eb93ab5ab32e05e5f728d46",
+        "sha256_in_prefix": "0a7454550569d5f74228778f7d89d295f93fbff39eb93ab5ab32e05e5f728d46",
+        "size_in_bytes": 2080
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/__pycache__/objectmodel.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d37ead9b74318abca7f9115d999b901bda52758b47454e8f1af385c89dbcc65",
+        "sha256_in_prefix": "3d37ead9b74318abca7f9115d999b901bda52758b47454e8f1af385c89dbcc65",
+        "size_in_bytes": 28922
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/_import/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/_import/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "256bded3a4b1b22612b8fd9eb370989fc96a350fb1eefd7e5422c2d593683e0b",
+        "sha256_in_prefix": "256bded3a4b1b22612b8fd9eb370989fc96a350fb1eefd7e5422c2d593683e0b",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/_import/__pycache__/spec.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2dbf305b197ad16ed10d3bc41e5c4b48eb70e9ed559a11868ec82fc275a98f65",
+        "sha256_in_prefix": "2dbf305b197ad16ed10d3bc41e5c4b48eb70e9ed559a11868ec82fc275a98f65",
+        "size_in_bytes": 10550
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/_import/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "10fa63626b0cf0c972d5a4f7e93058fa343f129374512e72113f77be3cd835f4",
+        "sha256_in_prefix": "10fa63626b0cf0c972d5a4f7e93058fa343f129374512e72113f77be3cd835f4",
+        "size_in_bytes": 400
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/_import/spec.py",
+        "path_type": "hardlink",
+        "sha256": "3f6bfea021ed97610eee32b5ca3e5632ca08ae7959c3dc1d926f5515565f8100",
+        "sha256_in_prefix": "3f6bfea021ed97610eee32b5ca3e5632ca08ae7959c3dc1d926f5515565f8100",
+        "size_in_bytes": 13412
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/_import/util.py",
+        "path_type": "hardlink",
+        "sha256": "43e8b0103f06be7358a78fb69f769fa0293da774f4aa1ce7940a05c7bb58a990",
+        "sha256_in_prefix": "43e8b0103f06be7358a78fb69f769fa0293da774f4aa1ce7940a05c7bb58a990",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/dunder_lookup.py",
+        "path_type": "hardlink",
+        "sha256": "b7f0f60ad09215d27e43c02d1ee31bae10096672bd65e915fc70f10093006b2d",
+        "sha256_in_prefix": "b7f0f60ad09215d27e43c02d1ee31bae10096672bd65e915fc70f10093006b2d",
+        "size_in_bytes": 2270
+      },
+      {
+        "_path": "Lib/site-packages/astroid/interpreter/objectmodel.py",
+        "path_type": "hardlink",
+        "sha256": "7d46167861c5a8f47924d7d9cfe133d6419f3bde8b1a7c2770df0c457c218e89",
+        "sha256_in_prefix": "7d46167861c5a8f47924d7d9cfe133d6419f3bde8b1a7c2770df0c457c218e89",
+        "size_in_bytes": 27649
+      },
+      {
+        "_path": "Lib/site-packages/astroid/manager.py",
+        "path_type": "hardlink",
+        "sha256": "f0c81c90691aba8d713cb386bf4d9bca0dc3e5c71b4458b0113f56274691efbb",
+        "sha256_in_prefix": "f0c81c90691aba8d713cb386bf4d9bca0dc3e5c71b4458b0113f56274691efbb",
+        "size_in_bytes": 14565
+      },
+      {
+        "_path": "Lib/site-packages/astroid/mixins.py",
+        "path_type": "hardlink",
+        "sha256": "49166447c95df9b841773155ec7a4e400871edc977a5a91731b680b66a16fb36",
+        "sha256_in_prefix": "49166447c95df9b841773155ec7a4e400871edc977a5a91731b680b66a16fb36",
+        "size_in_bytes": 5774
+      },
+      {
+        "_path": "Lib/site-packages/astroid/modutils.py",
+        "path_type": "hardlink",
+        "sha256": "4e630c53e92a347d76d18ed2842bf63287d63e11899cb5941a9f55bb5026bfe8",
+        "sha256_in_prefix": "4e630c53e92a347d76d18ed2842bf63287d63e11899cb5941a9f55bb5026bfe8",
+        "size_in_bytes": 22309
+      },
+      {
+        "_path": "Lib/site-packages/astroid/node_classes.py",
+        "path_type": "hardlink",
+        "sha256": "1e578ec75072350c9ee3b00992307650ed911043bd194c832748df979f03bf9f",
+        "sha256_in_prefix": "1e578ec75072350c9ee3b00992307650ed911043bd194c832748df979f03bf9f",
+        "size_in_bytes": 164047
+      },
+      {
+        "_path": "Lib/site-packages/astroid/nodes.py",
+        "path_type": "hardlink",
+        "sha256": "ccbe88e5ab7bcc6d3f09af496aa1d5a4e7bca1fb16d8411a4118ecf0069198dd",
+        "sha256_in_prefix": "ccbe88e5ab7bcc6d3f09af496aa1d5a4e7bca1fb16d8411a4118ecf0069198dd",
+        "size_in_bytes": 4782
+      },
+      {
+        "_path": "Lib/site-packages/astroid/objects.py",
+        "path_type": "hardlink",
+        "sha256": "016eabe1494739e86970707ae74496e2f9982f86267f43ed1a813a9f753f9374",
+        "sha256_in_prefix": "016eabe1494739e86970707ae74496e2f9982f86267f43ed1a813a9f753f9374",
+        "size_in_bytes": 10990
+      },
+      {
+        "_path": "Lib/site-packages/astroid/protocols.py",
+        "path_type": "hardlink",
+        "sha256": "3a5bc213b518daaba32a73cc6cc07fee99e7b06d19fa8c2b2d62be0e8fe8acf6",
+        "sha256_in_prefix": "3a5bc213b518daaba32a73cc6cc07fee99e7b06d19fa8c2b2d62be0e8fe8acf6",
+        "size_in_bytes": 28995
+      },
+      {
+        "_path": "Lib/site-packages/astroid/raw_building.py",
+        "path_type": "hardlink",
+        "sha256": "55c30b65608e62836b16dafc1df7a84aef5c4c5f1b6df11839afb16f9a5fa07e",
+        "sha256_in_prefix": "55c30b65608e62836b16dafc1df7a84aef5c4c5f1b6df11839afb16f9a5fa07e",
+        "size_in_bytes": 17865
+      },
+      {
+        "_path": "Lib/site-packages/astroid/rebuilder.py",
+        "path_type": "hardlink",
+        "sha256": "027192f7c9e587c82d19764d537c8a5044d6f0dac54a6bc3c2b8dafa168f0d8c",
+        "sha256_in_prefix": "027192f7c9e587c82d19764d537c8a5044d6f0dac54a6bc3c2b8dafa168f0d8c",
+        "size_in_bytes": 65156
+      },
+      {
+        "_path": "Lib/site-packages/astroid/scoped_nodes.py",
+        "path_type": "hardlink",
+        "sha256": "066ffa8c23d0ff8d6515512bd8ce5db667754253ea8d993148d6f89f4de6d3d5",
+        "sha256_in_prefix": "066ffa8c23d0ff8d6515512bd8ce5db667754253ea8d993148d6f89f4de6d3d5",
+        "size_in_bytes": 103061
+      },
+      {
+        "_path": "Lib/site-packages/astroid/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "6ef8a26f66416380ec2315a163d50094f3dd8eed974347db62d9707aa4afb647",
+        "sha256_in_prefix": "6ef8a26f66416380ec2315a163d50094f3dd8eed974347db62d9707aa4afb647",
+        "size_in_bytes": 2876
+      },
+      {
+        "_path": "Lib/site-packages/astroid/transforms.py",
+        "path_type": "hardlink",
+        "sha256": "46e03da070b9e0609dbbeb5c9c23206b440b8269ee1903028a9936bde6579cea",
+        "sha256_in_prefix": "46e03da070b9e0609dbbeb5c9c23206b440b8269ee1903028a9936bde6579cea",
+        "size_in_bytes": 3656
+      },
+      {
+        "_path": "Lib/site-packages/astroid/util.py",
+        "path_type": "hardlink",
+        "sha256": "2f367eadfc9d637aa5b900389afe5f44badb9decd3f7f40630306d7b338cb360",
+        "sha256_in_prefix": "2f367eadfc9d637aa5b900389afe5f44badb9decd3f7f40630306d7b338cb360",
+        "size_in_bytes": 4304
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "db003e73943bf5f7876db5a6b4f03277ec180186b13b4ebd062afc71acbafc7c",
+  "size": 320424,
+  "subdir": "win-64",
+  "timestamp": 1626950579479,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/astroid-2.6.5-py38haa95532_0.conda",
+  "version": "2.6.5"
+}

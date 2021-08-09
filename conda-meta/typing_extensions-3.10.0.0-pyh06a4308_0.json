@@ -1,0 +1,118 @@
+{
+  "build": "pyh06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "C:\\Users\\user\\anaconda3\\pkgs\\typing_extensions-3.10.0.0-pyh06a4308_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/typing_extensions-3.10.0.0.dist-info/INSTALLER",
+    "Lib/site-packages/typing_extensions-3.10.0.0.dist-info/LICENSE",
+    "Lib/site-packages/typing_extensions-3.10.0.0.dist-info/METADATA",
+    "Lib/site-packages/typing_extensions-3.10.0.0.dist-info/RECORD",
+    "Lib/site-packages/typing_extensions-3.10.0.0.dist-info/REQUESTED",
+    "Lib/site-packages/typing_extensions-3.10.0.0.dist-info/WHEEL",
+    "Lib/site-packages/typing_extensions-3.10.0.0.dist-info/direct_url.json",
+    "Lib/site-packages/typing_extensions-3.10.0.0.dist-info/top_level.txt",
+    "Lib/site-packages/typing_extensions.py",
+    ".nonadmin",
+    "Lib/site-packages/__pycache__/typing_extensions.cpython-38.pyc"
+  ],
+  "fn": "typing_extensions-3.10.0.0-pyh06a4308_0.conda",
+  "legacy_bz2_md5": "99c4673c080bff12f8cc0dad12ab3582",
+  "legacy_bz2_size": 29023,
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "C:\\Users\\user\\anaconda3\\pkgs\\typing_extensions-3.10.0.0-pyh06a4308_0",
+    "type": 1
+  },
+  "md5": "d3f801713400d13a37216d87f2f43735",
+  "name": "typing_extensions",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\user\\anaconda3\\pkgs\\typing_extensions-3.10.0.0-pyh06a4308_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ff17ce94e102024deb68773eb1cc74ca76da4e658f373531f0ac22d68a6bb1ad",
+        "sha256_in_prefix": "ff17ce94e102024deb68773eb1cc74ca76da4e658f373531f0ac22d68a6bb1ad",
+        "size_in_bytes": 12755
+      },
+      {
+        "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ce395c3427944141133dedfb8dfb5e7b82309062b19bc60f290c4514e320caa4",
+        "sha256_in_prefix": "ce395c3427944141133dedfb8dfb5e7b82309062b19bc60f290c4514e320caa4",
+        "size_in_bytes": 2099
+      },
+      {
+        "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4c2d2523f8f444e157ef48286d68b51b53a6744b078d84e1ef273b25246d069e",
+        "sha256_in_prefix": "4c2d2523f8f444e157ef48286d68b51b53a6744b078d84e1ef273b25246d069e",
+        "size_in_bytes": 895
+      },
+      {
+        "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7543906882bbf84c696801994ad6e0efbe4eb2b8aee2a42f5b52ba658033507f",
+        "sha256_in_prefix": "7543906882bbf84c696801994ad6e0efbe4eb2b8aee2a42f5b52ba658033507f",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8640e6937566adf5cf383fbe8d2e1a2930aeea4159a3e9154f570815fab5794f",
+        "sha256_in_prefix": "8640e6937566adf5cf383fbe8d2e1a2930aeea4159a3e9154f570815fab5794f",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/typing_extensions.py",
+        "path_type": "hardlink",
+        "sha256": "ba971173eca09a865281b2785996b7e1913f3d526c62b3a518ced659b06b26ea",
+        "sha256_in_prefix": "ba971173eca09a865281b2785996b7e1913f3d526c62b3a518ced659b06b26ea",
+        "size_in_bytes": 108429
+      },
+      {
+        "_path": "Lib/site-packages/__pycache__/typing_extensions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e0782edaa7b6a55d40f0f748b20cdcd0d8c1555b1fe0ede8ab3bd658c2012862",
+  "size": 27824,
+  "subdir": "noarch",
+  "timestamp": 1624965058971,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/typing_extensions-3.10.0.0-pyh06a4308_0.conda",
+  "version": "3.10.0.0"
+}

@@ -1,0 +1,90 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "gitdb >=4",
+    "python >=3.4",
+    "smmap >=3.0.1,<4"
+  ],
+  "extracted_package_dir": "C:\\Users\\user\\anaconda3\\pkgs\\gitdb2-4.0.2-py_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/gitdb2-4.0.2.dist-info/INSTALLER",
+    "Lib/site-packages/gitdb2-4.0.2.dist-info/METADATA",
+    "Lib/site-packages/gitdb2-4.0.2.dist-info/RECORD",
+    "Lib/site-packages/gitdb2-4.0.2.dist-info/WHEEL",
+    "Lib/site-packages/gitdb2-4.0.2.dist-info/direct_url.json",
+    "Lib/site-packages/gitdb2-4.0.2.dist-info/top_level.txt",
+    ".nonadmin"
+  ],
+  "fn": "gitdb2-4.0.2-py_0.conda",
+  "legacy_bz2_md5": "d2e1ca87327586236aa7333f55e3ed4a",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\user\\anaconda3\\pkgs\\gitdb2-4.0.2-py_0",
+    "type": 1
+  },
+  "md5": "5b3284b3679f206a06d7c89c6948f412",
+  "name": "gitdb2",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\user\\anaconda3\\pkgs\\gitdb2-4.0.2-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/gitdb2-4.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/gitdb2-4.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1636d10a56579eb29bae56ace1361916ffeb8957cee2e1122710ea552ade3190",
+        "sha256_in_prefix": "1636d10a56579eb29bae56ace1361916ffeb8957cee2e1122710ea552ade3190",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "site-packages/gitdb2-4.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f473b9dcc230b7d40b064c50880915787aa54ce92a469864239b73ef8299a7fc",
+        "sha256_in_prefix": "f473b9dcc230b7d40b064c50880915787aa54ce92a469864239b73ef8299a7fc",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "site-packages/gitdb2-4.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/gitdb2-4.0.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d22d9ae8b0213fc0b0b6a61eb1df174752ec611275cff974a4ccf33366a9df83",
+        "sha256_in_prefix": "d22d9ae8b0213fc0b0b6a61eb1df174752ec611275cff974a4ccf33366a9df83",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "site-packages/gitdb2-4.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "gitdb2",
+  "sha256": "f1582f431f6313e703e76f9c73d64dd1a25c9a8c56f0ad4de1af21c3a7bd08b2",
+  "size": 9590,
+  "subdir": "noarch",
+  "timestamp": 1593448779587,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/gitdb2-4.0.2-py_0.conda",
+  "version": "4.0.2"
+}

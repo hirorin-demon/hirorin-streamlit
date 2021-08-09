@@ -1,0 +1,310 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "qtpy"
+  ],
+  "extracted_package_dir": "C:\\Users\\user\\anaconda3\\pkgs\\qtawesome-1.0.2-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "Scripts/qta-browser",
+    "Lib/site-packages/QtAwesome-1.0.2.dist-info/INSTALLER",
+    "Lib/site-packages/QtAwesome-1.0.2.dist-info/LICENSE.txt",
+    "Lib/site-packages/QtAwesome-1.0.2.dist-info/METADATA",
+    "Lib/site-packages/QtAwesome-1.0.2.dist-info/RECORD",
+    "Lib/site-packages/QtAwesome-1.0.2.dist-info/REQUESTED",
+    "Lib/site-packages/QtAwesome-1.0.2.dist-info/WHEEL",
+    "Lib/site-packages/QtAwesome-1.0.2.dist-info/direct_url.json",
+    "Lib/site-packages/QtAwesome-1.0.2.dist-info/entry_points.txt",
+    "Lib/site-packages/QtAwesome-1.0.2.dist-info/top_level.txt",
+    "Lib/site-packages/qtawesome/__init__.py",
+    "Lib/site-packages/qtawesome/_version.py",
+    "Lib/site-packages/qtawesome/animation.py",
+    "Lib/site-packages/qtawesome/fonts/elusiveicons-webfont-charmap.json",
+    "Lib/site-packages/qtawesome/fonts/elusiveicons-webfont.ttf",
+    "Lib/site-packages/qtawesome/fonts/fontawesome4.7-webfont-charmap.json",
+    "Lib/site-packages/qtawesome/fonts/fontawesome4.7-webfont.ttf",
+    "Lib/site-packages/qtawesome/fonts/fontawesome5-brands-webfont-charmap.json",
+    "Lib/site-packages/qtawesome/fonts/fontawesome5-brands-webfont.ttf",
+    "Lib/site-packages/qtawesome/fonts/fontawesome5-regular-webfont-charmap.json",
+    "Lib/site-packages/qtawesome/fonts/fontawesome5-regular-webfont.ttf",
+    "Lib/site-packages/qtawesome/fonts/fontawesome5-solid-webfont-charmap.json",
+    "Lib/site-packages/qtawesome/fonts/fontawesome5-solid-webfont.ttf",
+    "Lib/site-packages/qtawesome/fonts/materialdesignicons-webfont-charmap.json",
+    "Lib/site-packages/qtawesome/fonts/materialdesignicons-webfont.ttf",
+    "Lib/site-packages/qtawesome/icon_browser.py",
+    "Lib/site-packages/qtawesome/iconic_font.py",
+    "Lib/site-packages/qtawesome/tests/test_icon_browser.py",
+    "Lib/site-packages/qtawesome/tests/test_qtawesome.py",
+    ".nonadmin",
+    "Lib/site-packages/qtawesome/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/qtawesome/__pycache__/_version.cpython-38.pyc",
+    "Lib/site-packages/qtawesome/__pycache__/animation.cpython-38.pyc",
+    "Lib/site-packages/qtawesome/__pycache__/icon_browser.cpython-38.pyc",
+    "Lib/site-packages/qtawesome/__pycache__/iconic_font.cpython-38.pyc",
+    "Lib/site-packages/qtawesome/tests/__pycache__/test_icon_browser.cpython-38.pyc",
+    "Lib/site-packages/qtawesome/tests/__pycache__/test_qtawesome.cpython-38.pyc"
+  ],
+  "fn": "qtawesome-1.0.2-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "480aef8517c03cc09b375170d818fd32",
+  "legacy_bz2_size": 861415,
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\user\\anaconda3\\pkgs\\qtawesome-1.0.2-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "3f3f7ebe0fd78ccbd3b8a549ff07f5e7",
+  "name": "qtawesome",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\user\\anaconda3\\pkgs\\qtawesome-1.0.2-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/qta-browser",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/qtawesome_1615991616277/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "24ff3d3181251e4c57598568b87a23ef6028761f154f451fcb7739f15d5994c1",
+        "sha256_in_prefix": "894b59c8d0c965c42da8a9044c630dfd26fb03b6137845a43b4fe8350c0159b1",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "site-packages/QtAwesome-1.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/QtAwesome-1.0.2.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "b1a38edb8663aab2dd5a262d39ae003b3c42a83cf0b04c80408644991c735ae7",
+        "sha256_in_prefix": "b1a38edb8663aab2dd5a262d39ae003b3c42a83cf0b04c80408644991c735ae7",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "site-packages/QtAwesome-1.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9a5f23d4acdaad024e2561d1e62706759839d8f9701591a4e49c200e9539580d",
+        "sha256_in_prefix": "9a5f23d4acdaad024e2561d1e62706759839d8f9701591a4e49c200e9539580d",
+        "size_in_bytes": 7649
+      },
+      {
+        "_path": "site-packages/QtAwesome-1.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "53a3aae6572d6bb64975e680dc2a59969a6e4b37825deee55370700ccf18f56b",
+        "sha256_in_prefix": "53a3aae6572d6bb64975e680dc2a59969a6e4b37825deee55370700ccf18f56b",
+        "size_in_bytes": 3131
+      },
+      {
+        "_path": "site-packages/QtAwesome-1.0.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/QtAwesome-1.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/QtAwesome-1.0.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "121cb898f0f1c7942669ba6d4f13a2f7b55b6422adc0511e942c547d77dbb739",
+        "sha256_in_prefix": "121cb898f0f1c7942669ba6d4f13a2f7b55b6422adc0511e942c547d77dbb739",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/QtAwesome-1.0.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "41f306cc2a0464470218367c719e5a501c2f365f757745204d36314f828f125f",
+        "sha256_in_prefix": "41f306cc2a0464470218367c719e5a501c2f365f757745204d36314f828f125f",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "site-packages/QtAwesome-1.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9c7f0bd630967ff31b658ffa24c604374d73c370bc3c7c1659cea3ed79a616c5",
+        "sha256_in_prefix": "9c7f0bd630967ff31b658ffa24c604374d73c370bc3c7c1659cea3ed79a616c5",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/qtawesome/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "67dcdae4ac9302a2e02cfe32f061cbbbc81ff2e4bb80572222117a817cd6ac77",
+        "sha256_in_prefix": "67dcdae4ac9302a2e02cfe32f061cbbbc81ff2e4bb80572222117a817cd6ac77",
+        "size_in_bytes": 9038
+      },
+      {
+        "_path": "site-packages/qtawesome/_version.py",
+        "path_type": "hardlink",
+        "sha256": "38abaaa6fab77ec3fd497c3f14276d770c8f9e78b6dd97fc55f70f3b9453b8bb",
+        "sha256_in_prefix": "38abaaa6fab77ec3fd497c3f14276d770c8f9e78b6dd97fc55f70f3b9453b8bb",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "site-packages/qtawesome/animation.py",
+        "path_type": "hardlink",
+        "sha256": "e906646c1c057cf8a393d337d64bb651ad3c9ab9cae2e33fd0cc843089924ab2",
+        "sha256_in_prefix": "e906646c1c057cf8a393d337d64bb651ad3c9ab9cae2e33fd0cc843089924ab2",
+        "size_in_bytes": 1248
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/elusiveicons-webfont-charmap.json",
+        "path_type": "hardlink",
+        "sha256": "be05507fc31c47f89910983b030fec906ee86861a79b8e03b1f24029699679e8",
+        "sha256_in_prefix": "be05507fc31c47f89910983b030fec906ee86861a79b8e03b1f24029699679e8",
+        "size_in_bytes": 7924
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/elusiveicons-webfont.ttf",
+        "path_type": "hardlink",
+        "sha256": "29b93f3fe666bf73dcc857869aee47532f710c0a16959c6275dc5bc2e3be4c9e",
+        "sha256_in_prefix": "29b93f3fe666bf73dcc857869aee47532f710c0a16959c6275dc5bc2e3be4c9e",
+        "size_in_bytes": 79556
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/fontawesome4.7-webfont-charmap.json",
+        "path_type": "hardlink",
+        "sha256": "9936310d795466a6ebcd1165f9fb894aaa31f8bee554969c866e60281dee976d",
+        "sha256_in_prefix": "9936310d795466a6ebcd1165f9fb894aaa31f8bee554969c866e60281dee976d",
+        "size_in_bytes": 20580
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/fontawesome4.7-webfont.ttf",
+        "path_type": "hardlink",
+        "sha256": "aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8",
+        "sha256_in_prefix": "aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8",
+        "size_in_bytes": 165548
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/fontawesome5-brands-webfont-charmap.json",
+        "path_type": "hardlink",
+        "sha256": "ffbf4477e24c989a81f4624a2b9617a109695ef6ae393593365ab26dc4361fac",
+        "sha256_in_prefix": "ffbf4477e24c989a81f4624a2b9617a109695ef6ae393593365ab26dc4361fac",
+        "size_in_bytes": 10691
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/fontawesome5-brands-webfont.ttf",
+        "path_type": "hardlink",
+        "sha256": "d7746d2966e30323266a9f7ea24be80940f7a0207a0b91dde1669f3b3bdecd33",
+        "sha256_in_prefix": "d7746d2966e30323266a9f7ea24be80940f7a0207a0b91dde1669f3b3bdecd33",
+        "size_in_bytes": 129048
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/fontawesome5-regular-webfont-charmap.json",
+        "path_type": "hardlink",
+        "sha256": "ade564d210944b38ae2f352addb2a84a3bb46788e769392757f6d719986deb04",
+        "sha256_in_prefix": "ade564d210944b38ae2f352addb2a84a3bb46788e769392757f6d719986deb04",
+        "size_in_bytes": 4098
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/fontawesome5-regular-webfont.ttf",
+        "path_type": "hardlink",
+        "sha256": "7429e24b67b3b236ccc6b388f345522c665a48d0109d98a64cf28bd5631eefb3",
+        "sha256_in_prefix": "7429e24b67b3b236ccc6b388f345522c665a48d0109d98a64cf28bd5631eefb3",
+        "size_in_bytes": 40072
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/fontawesome5-solid-webfont-charmap.json",
+        "path_type": "hardlink",
+        "sha256": "a62abbb482ac479b04917326a8e64ef8a38df9dbf7656592cae7786a071657a9",
+        "sha256_in_prefix": "a62abbb482ac479b04917326a8e64ef8a38df9dbf7656592cae7786a071657a9",
+        "size_in_bytes": 25448
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/fontawesome5-solid-webfont.ttf",
+        "path_type": "hardlink",
+        "sha256": "9313de7304bef452ff5ac93e0f9ca48c3971d2fbb502c3fa1e2c2ea1f91ad853",
+        "sha256_in_prefix": "9313de7304bef452ff5ac93e0f9ca48c3971d2fbb502c3fa1e2c2ea1f91ad853",
+        "size_in_bytes": 191832
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/materialdesignicons-webfont-charmap.json",
+        "path_type": "hardlink",
+        "sha256": "7ff75f620c013337e9db4552bfe09aaeabe383afd05dac4ef07ac79cadfba10d",
+        "sha256_in_prefix": "7ff75f620c013337e9db4552bfe09aaeabe383afd05dac4ef07ac79cadfba10d",
+        "size_in_bytes": 186034
+      },
+      {
+        "_path": "site-packages/qtawesome/fonts/materialdesignicons-webfont.ttf",
+        "path_type": "hardlink",
+        "sha256": "a78731f1f6a3a44599d886e381362220a3c2dd9ae5037e0f050c17f8c622c62f",
+        "sha256_in_prefix": "a78731f1f6a3a44599d886e381362220a3c2dd9ae5037e0f050c17f8c622c62f",
+        "size_in_bytes": 940432
+      },
+      {
+        "_path": "site-packages/qtawesome/icon_browser.py",
+        "path_type": "hardlink",
+        "sha256": "9d83c9765fc2dfbd6dcef90e8496e4caf287fd1c22d565969740ec107057d527",
+        "sha256_in_prefix": "9d83c9765fc2dfbd6dcef90e8496e4caf287fd1c22d565969740ec107057d527",
+        "size_in_bytes": 6554
+      },
+      {
+        "_path": "site-packages/qtawesome/iconic_font.py",
+        "path_type": "hardlink",
+        "sha256": "4af789a059545997f645abb920db651dcba63851a748281e93626417ab3e06b1",
+        "sha256_in_prefix": "4af789a059545997f645abb920db651dcba63851a748281e93626417ab3e06b1",
+        "size_in_bytes": 16601
+      },
+      {
+        "_path": "site-packages/qtawesome/tests/test_icon_browser.py",
+        "path_type": "hardlink",
+        "sha256": "6e81ce3066e6ce515b70c871eea1a337edf7ac781b41a8dc2e3387e01f713b4a",
+        "sha256_in_prefix": "6e81ce3066e6ce515b70c871eea1a337edf7ac781b41a8dc2e3387e01f713b4a",
+        "size_in_bytes": 1834
+      },
+      {
+        "_path": "site-packages/qtawesome/tests/test_qtawesome.py",
+        "path_type": "hardlink",
+        "sha256": "9c8b1eb2d16423efae34c35589363accc9fff76e63c81ba913ef2f9b4097a8c8",
+        "sha256_in_prefix": "9c8b1eb2d16423efae34c35589363accc9fff76e63c81ba913ef2f9b4097a8c8",
+        "size_in_bytes": 1246
+      },
+      {
+        "_path": "Lib/site-packages/qtawesome/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/qtawesome/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/qtawesome/__pycache__/animation.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/qtawesome/__pycache__/icon_browser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/qtawesome/__pycache__/iconic_font.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/qtawesome/tests/__pycache__/test_icon_browser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/qtawesome/tests/__pycache__/test_qtawesome.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8a8b62b515359ae741a9e7e451c40b348fc9bea49a51879ba46b1481ea720d99",
+  "size": 778316,
+  "subdir": "noarch",
+  "timestamp": 1615991660966,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/qtawesome-1.0.2-pyhd3eb1b0_0.conda",
+  "version": "1.0.2"
+}

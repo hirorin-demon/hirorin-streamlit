@@ -1,0 +1,115 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "C:\\Users\\user\\anaconda3\\pkgs\\imagesize-1.2.0-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/imagesize-1.2.0.dist-info/INSTALLER",
+    "Lib/site-packages/imagesize-1.2.0.dist-info/LICENSE.rst",
+    "Lib/site-packages/imagesize-1.2.0.dist-info/METADATA",
+    "Lib/site-packages/imagesize-1.2.0.dist-info/RECORD",
+    "Lib/site-packages/imagesize-1.2.0.dist-info/REQUESTED",
+    "Lib/site-packages/imagesize-1.2.0.dist-info/WHEEL",
+    "Lib/site-packages/imagesize-1.2.0.dist-info/direct_url.json",
+    "Lib/site-packages/imagesize-1.2.0.dist-info/top_level.txt",
+    "Lib/site-packages/imagesize.py",
+    ".nonadmin",
+    "Lib/site-packages/__pycache__/imagesize.cpython-38.pyc"
+  ],
+  "fn": "imagesize-1.2.0-pyhd3eb1b0_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\user\\anaconda3\\pkgs\\imagesize-1.2.0-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "fbaa04b71997a27f9c9572b9ad52af22",
+  "name": "imagesize",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\user\\anaconda3\\pkgs\\imagesize-1.2.0-pyhd3eb1b0_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/imagesize-1.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/imagesize-1.2.0.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "d0659c2767a164c2bf2736ee9f7bb619e0f165c89a962839de53fd5f77f62f4e",
+        "sha256_in_prefix": "d0659c2767a164c2bf2736ee9f7bb619e0f165c89a962839de53fd5f77f62f4e",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "site-packages/imagesize-1.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1c963a59c208ae2918fb6f3d09e56f811ed85d0fbf2ab88212b7ffd1e477e3d6",
+        "sha256_in_prefix": "1c963a59c208ae2918fb6f3d09e56f811ed85d0fbf2ab88212b7ffd1e477e3d6",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "site-packages/imagesize-1.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d48fd3c37c12265c0ea1075d2a49df9135917bf8da9a187ab753d0618cc73a24",
+        "sha256_in_prefix": "d48fd3c37c12265c0ea1075d2a49df9135917bf8da9a187ab753d0618cc73a24",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "site-packages/imagesize-1.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/imagesize-1.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/imagesize-1.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d735875a70338622b7172b3c63aa1851549c96050817ba95912b9c65642c4f0a",
+        "sha256_in_prefix": "d735875a70338622b7172b3c63aa1851549c96050817ba95912b9c65642c4f0a",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/imagesize-1.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fff8fa9258b3a0a09a664db55b6f9d29c400565769d28a5f1d5122122664e914",
+        "sha256_in_prefix": "fff8fa9258b3a0a09a664db55b6f9d29c400565769d28a5f1d5122122664e914",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/imagesize.py",
+        "path_type": "hardlink",
+        "sha256": "b86df28c9b1f24c109dc11b760ca946815db350d6f674437d8db15764977218e",
+        "sha256_in_prefix": "b86df28c9b1f24c109dc11b760ca946815db350d6f674437d8db15764977218e",
+        "size_in_bytes": 11464
+      },
+      {
+        "_path": "Lib/site-packages/__pycache__/imagesize.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1de316f3cfda7ba66b75cd878a21c1d4af8d8c180af3e6c3176563fa0e7abee6",
+  "size": 8594,
+  "subdir": "noarch",
+  "timestamp": 1611921611475,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/imagesize-1.2.0-pyhd3eb1b0_0.tar.bz2",
+  "version": "1.2.0"
+}

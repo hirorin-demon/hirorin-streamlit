@@ -1,0 +1,468 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "cloudpickle",
+    "ipykernel >=5.3.0",
+    "ipython >=7.6.0",
+    "jupyter_client >=5.3.4",
+    "python >=3.8,<3.9.0a0",
+    "pyzmq >=17"
+  ],
+  "extracted_package_dir": "C:\\Users\\user\\anaconda3\\pkgs\\spyder-kernels-2.0.5-py38haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/spyder_kernels-2.0.5.dist-info/AUTHORS.txt",
+    "Lib/site-packages/spyder_kernels-2.0.5.dist-info/INSTALLER",
+    "Lib/site-packages/spyder_kernels-2.0.5.dist-info/LICENSE.txt",
+    "Lib/site-packages/spyder_kernels-2.0.5.dist-info/METADATA",
+    "Lib/site-packages/spyder_kernels-2.0.5.dist-info/RECORD",
+    "Lib/site-packages/spyder_kernels-2.0.5.dist-info/REQUESTED",
+    "Lib/site-packages/spyder_kernels-2.0.5.dist-info/WHEEL",
+    "Lib/site-packages/spyder_kernels-2.0.5.dist-info/direct_url.json",
+    "Lib/site-packages/spyder_kernels-2.0.5.dist-info/top_level.txt",
+    "Lib/site-packages/spyder_kernels/__init__.py",
+    "Lib/site-packages/spyder_kernels/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/__pycache__/_version.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/__pycache__/py3compat.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/_version.py",
+    "Lib/site-packages/spyder_kernels/comms/__init__.py",
+    "Lib/site-packages/spyder_kernels/comms/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/comms/__pycache__/commbase.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/comms/__pycache__/frontendcomm.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/comms/commbase.py",
+    "Lib/site-packages/spyder_kernels/comms/frontendcomm.py",
+    "Lib/site-packages/spyder_kernels/console/__init__.py",
+    "Lib/site-packages/spyder_kernels/console/__main__.py",
+    "Lib/site-packages/spyder_kernels/console/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/console/__pycache__/__main__.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/console/__pycache__/kernel.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/console/__pycache__/start.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/console/kernel.py",
+    "Lib/site-packages/spyder_kernels/console/start.py",
+    "Lib/site-packages/spyder_kernels/customize/__init__.py",
+    "Lib/site-packages/spyder_kernels/customize/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/customize/__pycache__/namespace_manager.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/customize/__pycache__/spydercustomize.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/customize/__pycache__/spyderpdb.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/customize/__pycache__/umr.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/customize/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/customize/namespace_manager.py",
+    "Lib/site-packages/spyder_kernels/customize/spydercustomize.py",
+    "Lib/site-packages/spyder_kernels/customize/spyderpdb.py",
+    "Lib/site-packages/spyder_kernels/customize/umr.py",
+    "Lib/site-packages/spyder_kernels/customize/utils.py",
+    "Lib/site-packages/spyder_kernels/py3compat.py",
+    "Lib/site-packages/spyder_kernels/utils/__init__.py",
+    "Lib/site-packages/spyder_kernels/utils/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/utils/__pycache__/dochelpers.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/utils/__pycache__/iofuncs.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/utils/__pycache__/misc.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/utils/__pycache__/nsview.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/utils/__pycache__/test_utils.cpython-38.pyc",
+    "Lib/site-packages/spyder_kernels/utils/dochelpers.py",
+    "Lib/site-packages/spyder_kernels/utils/iofuncs.py",
+    "Lib/site-packages/spyder_kernels/utils/misc.py",
+    "Lib/site-packages/spyder_kernels/utils/nsview.py",
+    "Lib/site-packages/spyder_kernels/utils/test_utils.py",
+    ".nonadmin"
+  ],
+  "fn": "spyder-kernels-2.0.5-py38haa95532_0.conda",
+  "legacy_bz2_md5": "0e2f20a99e8275c045965f929fd5dad1",
+  "legacy_bz2_size": 100007,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\user\\anaconda3\\pkgs\\spyder-kernels-2.0.5-py38haa95532_0",
+    "type": 1
+  },
+  "md5": "3a1350496e84764c5fae652af199b364",
+  "name": "spyder-kernels",
+  "package_tarball_full_path": "C:\\Users\\user\\anaconda3\\pkgs\\spyder-kernels-2.0.5-py38haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/spyder_kernels-2.0.5.dist-info/AUTHORS.txt",
+        "path_type": "hardlink",
+        "sha256": "ed23d1741757bee8280483878e15f12f142bcbf6c6c733f09b967fa0e1ef1c34",
+        "sha256_in_prefix": "ed23d1741757bee8280483878e15f12f142bcbf6c6c733f09b967fa0e1ef1c34",
+        "size_in_bytes": 891
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels-2.0.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels-2.0.5.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a99c6590106c546eb83fd0c63edd6641905cc4ca7ff80c27e8200ee78ace80cb",
+        "sha256_in_prefix": "a99c6590106c546eb83fd0c63edd6641905cc4ca7ff80c27e8200ee78ace80cb",
+        "size_in_bytes": 1103
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels-2.0.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6688e225a37f490847b3aca1a3244d4d272de58708dfe40d50b4f2773ed5f67d",
+        "sha256_in_prefix": "6688e225a37f490847b3aca1a3244d4d272de58708dfe40d50b4f2773ed5f67d",
+        "size_in_bytes": 4887
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels-2.0.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "18c9275cb6c85e96d8d886fbd926a15065124f15d48c3dc80bb7449812c57f58",
+        "sha256_in_prefix": "18c9275cb6c85e96d8d886fbd926a15065124f15d48c3dc80bb7449812c57f58",
+        "size_in_bytes": 4165
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels-2.0.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels-2.0.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels-2.0.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6a98fdc74d1168517793036f3e779af944a11680cd1d464a07a52887b0964507",
+        "sha256_in_prefix": "6a98fdc74d1168517793036f3e779af944a11680cd1d464a07a52887b0964507",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels-2.0.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8a0cb3e0853284bdeb5ae0fd0a3e41938a3182545cfb9d5dc58c787f9846058d",
+        "sha256_in_prefix": "8a0cb3e0853284bdeb5ae0fd0a3e41938a3182545cfb9d5dc58c787f9846058d",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e8497489adf1fb8921742ed742c2fa1b2c5f46033694bc4f2128749759fb99ad",
+        "sha256_in_prefix": "e8497489adf1fb8921742ed742c2fa1b2c5f46033694bc4f2128749759fb99ad",
+        "size_in_bytes": 1476
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b08857ce1f5f3e0e7a2a20200e7e3c8a56d71160564747751d8e2915b702c47",
+        "sha256_in_prefix": "2b08857ce1f5f3e0e7a2a20200e7e3c8a56d71160564747751d8e2915b702c47",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/__pycache__/_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f94a977102c45c521fe0ba63f0d429df935d48608f1ed9d3bc22e68f46af6f62",
+        "sha256_in_prefix": "f94a977102c45c521fe0ba63f0d429df935d48608f1ed9d3bc22e68f46af6f62",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/__pycache__/py3compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "89c4474229175775e43031e3bd589504c0cdc08a67d892fa53c71f4d87485986",
+        "sha256_in_prefix": "89c4474229175775e43031e3bd589504c0cdc08a67d892fa53c71f4d87485986",
+        "size_in_bytes": 7591
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/_version.py",
+        "path_type": "hardlink",
+        "sha256": "9f538fea04aaa19aaf79d7731f6d0930d549f99369edcdb79e227d556ff6cff6",
+        "sha256_in_prefix": "9f538fea04aaa19aaf79d7731f6d0930d549f99369edcdb79e227d556ff6cff6",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/comms/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0cf202fa88c2850190ff442b018f87bc9247890005de2c506217c306ffb9456c",
+        "sha256_in_prefix": "0cf202fa88c2850190ff442b018f87bc9247890005de2c506217c306ffb9456c",
+        "size_in_bytes": 1540
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/comms/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "439ef324625e58ac3ad802d51586b44b1010c63cf6cedb02c39c62047e591ccb",
+        "sha256_in_prefix": "439ef324625e58ac3ad802d51586b44b1010c63cf6cedb02c39c62047e591ccb",
+        "size_in_bytes": 1374
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/comms/__pycache__/commbase.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e70d5d5d2d7d934966347aecc19f27a61663906b44ead9efe62a4bb1eed83462",
+        "sha256_in_prefix": "e70d5d5d2d7d934966347aecc19f27a61663906b44ead9efe62a4bb1eed83462",
+        "size_in_bytes": 16149
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/comms/__pycache__/frontendcomm.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1679e6b14913daa8962e036fbfb9302ee6380809dcbfb8de62893b5313adec7",
+        "sha256_in_prefix": "f1679e6b14913daa8962e036fbfb9302ee6380809dcbfb8de62893b5313adec7",
+        "size_in_bytes": 8592
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/comms/commbase.py",
+        "path_type": "hardlink",
+        "sha256": "d2e1ef2ff94152cf02185bf6cd4cb43fd127173214569ece03dda0b260a92da0",
+        "sha256_in_prefix": "d2e1ef2ff94152cf02185bf6cd4cb43fd127173214569ece03dda0b260a92da0",
+        "size_in_bytes": 18426
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/comms/frontendcomm.py",
+        "path_type": "hardlink",
+        "sha256": "b395306bdf041a2befc1d93dbf136063922f381a6872d8bc442920d0446ed2f1",
+        "sha256_in_prefix": "b395306bdf041a2befc1d93dbf136063922f381a6872d8bc442920d0446ed2f1",
+        "size_in_bytes": 10243
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/console/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0818ea51939659213e06b6b4c629189c037ac977ea420fb011b4c4ef560cd5be",
+        "sha256_in_prefix": "0818ea51939659213e06b6b4c629189c037ac977ea420fb011b4c4ef560cd5be",
+        "size_in_bytes": 353
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/console/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "b689de31c2f6005bb4f49a15ce38f39c7b57df9d91829b6bf17a0f2d0267fae3",
+        "sha256_in_prefix": "b689de31c2f6005bb4f49a15ce38f39c7b57df9d91829b6bf17a0f2d0267fae3",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/console/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e3f5e7ea1c48b0915bed60d25a47d57447b5c9ec891f69b3bc2e7c0160318ba",
+        "sha256_in_prefix": "1e3f5e7ea1c48b0915bed60d25a47d57447b5c9ec891f69b3bc2e7c0160318ba",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/console/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d3afebea582e2e685dc0db57f36a65677adbca16b9226ade3b6b362f44c0939",
+        "sha256_in_prefix": "5d3afebea582e2e685dc0db57f36a65677adbca16b9226ade3b6b362f44c0939",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/console/__pycache__/kernel.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "48dba86047c0e80a134f474ab0d8caa48d88836cf27534df2a92705340794c57",
+        "sha256_in_prefix": "48dba86047c0e80a134f474ab0d8caa48d88836cf27534df2a92705340794c57",
+        "size_in_bytes": 24829
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/console/__pycache__/start.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f5377c64c166264a71f741cdd1590fbaa6179a855997a989ad63027d498b927",
+        "sha256_in_prefix": "5f5377c64c166264a71f741cdd1590fbaa6179a855997a989ad63027d498b927",
+        "size_in_bytes": 6054
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/console/kernel.py",
+        "path_type": "hardlink",
+        "sha256": "d0f8cd763f6a19fa604ea9e4c4b71bf5a8c82ab34cc72e66ddbaf9881f90253b",
+        "sha256_in_prefix": "d0f8cd763f6a19fa604ea9e4c4b71bf5a8c82ab34cc72e66ddbaf9881f90253b",
+        "size_in_bytes": 29898
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/console/start.py",
+        "path_type": "hardlink",
+        "sha256": "28aa444fc102158cdad15a41492ec177f493805a99ccacf880d609779fbb8ae3",
+        "sha256_in_prefix": "28aa444fc102158cdad15a41492ec177f493805a99ccacf880d609779fbb8ae3",
+        "size_in_bytes": 9874
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "72afcd9f38909a632e943755996ea77abe45fbadd260b034608d5d74d0299624",
+        "sha256_in_prefix": "72afcd9f38909a632e943755996ea77abe45fbadd260b034608d5d74d0299624",
+        "size_in_bytes": 511
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "841c05c831066aeeac7d115ac28343daa10c53f5000f5b5f01503b0a30b2d1b3",
+        "sha256_in_prefix": "841c05c831066aeeac7d115ac28343daa10c53f5000f5b5f01503b0a30b2d1b3",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/__pycache__/namespace_manager.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ffa19389d06989298d26792356f9b2f0cfb7189e110d9c640f555732509c2f44",
+        "sha256_in_prefix": "ffa19389d06989298d26792356f9b2f0cfb7189e110d9c640f555732509c2f44",
+        "size_in_bytes": 2997
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/__pycache__/spydercustomize.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "daf7bb83645ad0395adb820deb8a8ba4237de71c968a45306ee6996ea712455a",
+        "sha256_in_prefix": "daf7bb83645ad0395adb820deb8a8ba4237de71c968a45306ee6996ea712455a",
+        "size_in_bytes": 13752
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/__pycache__/spyderpdb.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "acb6da9e60a29da95a8ca74c20c5fa8d3aac8a39c6c13e6d941c333fbc442876",
+        "sha256_in_prefix": "acb6da9e60a29da95a8ca74c20c5fa8d3aac8a39c6c13e6d941c333fbc442876",
+        "size_in_bytes": 18220
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/__pycache__/umr.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "144dac6aed9421d653c455bc8ddbc4abb08ac1bda567f586d2fbe3143e68f286",
+        "sha256_in_prefix": "144dac6aed9421d653c455bc8ddbc4abb08ac1bda567f586d2fbe3143e68f286",
+        "size_in_bytes": 3414
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6db3e4d4749ef922ca365f28f0ec32ccd55f21e486be30a144650e129df4eec7",
+        "sha256_in_prefix": "6db3e4d4749ef922ca365f28f0ec32ccd55f21e486be30a144650e129df4eec7",
+        "size_in_bytes": 1717
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/namespace_manager.py",
+        "path_type": "hardlink",
+        "sha256": "97972e474fbe6d22932d988f41a7fbd24309e814dd0d8b20a9c553eea0629620",
+        "sha256_in_prefix": "97972e474fbe6d22932d988f41a7fbd24309e814dd0d8b20a9c553eea0629620",
+        "size_in_bytes": 4319
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/spydercustomize.py",
+        "path_type": "hardlink",
+        "sha256": "12c0106ea756f843ea430f8659f41f334f5a36caf4f81644b79bdd10905b30ff",
+        "sha256_in_prefix": "12c0106ea756f843ea430f8659f41f334f5a36caf4f81644b79bdd10905b30ff",
+        "size_in_bytes": 24897
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/spyderpdb.py",
+        "path_type": "hardlink",
+        "sha256": "40f031f2cb59e003369c9c42fc6e6d644a325e4414422f129824788fee122bc6",
+        "sha256_in_prefix": "40f031f2cb59e003369c9c42fc6e6d644a325e4414422f129824788fee122bc6",
+        "size_in_bytes": 27988
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/umr.py",
+        "path_type": "hardlink",
+        "sha256": "9dc6695331a0aa172ff606da3fb17fd43099415217e08c2b068c0e0c53b99d48",
+        "sha256_in_prefix": "9dc6695331a0aa172ff606da3fb17fd43099415217e08c2b068c0e0c53b99d48",
+        "size_in_bytes": 4901
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/customize/utils.py",
+        "path_type": "hardlink",
+        "sha256": "6ea7d3e8ed663eaffa14a1bc7144c0df35921cd876f3484a30639d61f988bd43",
+        "sha256_in_prefix": "6ea7d3e8ed663eaffa14a1bc7144c0df35921cd876f3484a30639d61f988bd43",
+        "size_in_bytes": 2872
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/py3compat.py",
+        "path_type": "hardlink",
+        "sha256": "68aa3190cb5cef6eb302bfcd772214e8cbcc77330fee5f6d5dda5b9d3bf7614e",
+        "sha256_in_prefix": "68aa3190cb5cef6eb302bfcd772214e8cbcc77330fee5f6d5dda5b9d3bf7614e",
+        "size_in_bytes": 9515
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "977f0adecea7e5db59b2dbc45ab20428985c8b219073ab8bd3726f48a84867d8",
+        "sha256_in_prefix": "977f0adecea7e5db59b2dbc45ab20428985c8b219073ab8bd3726f48a84867d8",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "830e61466ef7a91edd22a049c30173c5bff990bf493934a09f9090350327278a",
+        "sha256_in_prefix": "830e61466ef7a91edd22a049c30173c5bff990bf493934a09f9090350327278a",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/__pycache__/dochelpers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b7a4ba7beb3596550ab28fc5bd6b565f45de7a023d65042f13482967a498161",
+        "sha256_in_prefix": "6b7a4ba7beb3596550ab28fc5bd6b565f45de7a023d65042f13482967a498161",
+        "size_in_bytes": 8161
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/__pycache__/iofuncs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f544541e145b71e3d8b4c0d7532e1ad81a40ff5a9d57a573b2ae8943d268f97",
+        "sha256_in_prefix": "2f544541e145b71e3d8b4c0d7532e1ad81a40ff5a9d57a573b2ae8943d268f97",
+        "size_in_bytes": 13226
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/__pycache__/misc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2fc586e8c36ef2aff43dc1c28661e0c65a8781873f7f93e482ee12acde6b0a36",
+        "sha256_in_prefix": "2fc586e8c36ef2aff43dc1c28661e0c65a8781873f7f93e482ee12acde6b0a36",
+        "size_in_bytes": 1801
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/__pycache__/nsview.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2cc28c12a1b8ff491158fcd6e253ef5afc11c7d1ea486f45bd5880ae5bcaef7",
+        "sha256_in_prefix": "f2cc28c12a1b8ff491158fcd6e253ef5afc11c7d1ea486f45bd5880ae5bcaef7",
+        "size_in_bytes": 16112
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/__pycache__/test_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9df2b5a7b84d9f6daa67b7e47d2ba1b0a43c341589a7731c0a2db4461deb1246",
+        "sha256_in_prefix": "9df2b5a7b84d9f6daa67b7e47d2ba1b0a43c341589a7731c0a2db4461deb1246",
+        "size_in_bytes": 1157
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/dochelpers.py",
+        "path_type": "hardlink",
+        "sha256": "121d1ba79ad2db3c4929a5e2686d02a1395cf88ab5fe505c5467b5bc9b9544d8",
+        "sha256_in_prefix": "121d1ba79ad2db3c4929a5e2686d02a1395cf88ab5fe505c5467b5bc9b9544d8",
+        "size_in_bytes": 12151
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/iofuncs.py",
+        "path_type": "hardlink",
+        "sha256": "8e9aabc6eb1e23c7f3434ca5f1447cce9a5fd262f97dc15e04618ed522aebf1e",
+        "sha256_in_prefix": "8e9aabc6eb1e23c7f3434ca5f1447cce9a5fd262f97dc15e04618ed522aebf1e",
+        "size_in_bytes": 19338
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/misc.py",
+        "path_type": "hardlink",
+        "sha256": "99fb029fb1b751e625b7ae4330341c5f52c1381f0fc0ad6830dbe3ba4ba78f9e",
+        "sha256_in_prefix": "99fb029fb1b751e625b7ae4330341c5f52c1381f0fc0ad6830dbe3ba4ba78f9e",
+        "size_in_bytes": 2426
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/nsview.py",
+        "path_type": "hardlink",
+        "sha256": "9d22bb2fdb94b99ef25f17174c2e686ea805c9bc12669f8c11e4a34cf9f6c446",
+        "sha256_in_prefix": "9d22bb2fdb94b99ef25f17174c2e686ea805c9bc12669f8c11e4a34cf9f6c446",
+        "size_in_bytes": 25477
+      },
+      {
+        "_path": "Lib/site-packages/spyder_kernels/utils/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "5e1d2cd40427e0b80147f79c8d7abef2064a4368c442e343a0736b73148c1c8d",
+        "sha256_in_prefix": "5e1d2cd40427e0b80147f79c8d7abef2064a4368c442e343a0736b73148c1c8d",
+        "size_in_bytes": 1425
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7653354e521ad798e44404131b5cd959ad71235c1566b65406527fe47d6cd69b",
+  "size": 102677,
+  "subdir": "win-64",
+  "timestamp": 1625671190851,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/spyder-kernels-2.0.5-py38haa95532_0.conda",
+  "version": "2.0.5"
+}
